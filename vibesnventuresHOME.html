@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Vibes N Ventures </title>
+	<meta name="viewport" content="width=device-width, intial-scale=1.0 user-scalable=no">
+	<!-- css -->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/demo.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/mix.css">
+	<link rel="stylesheet" href="css/responsive" media="screen and (max-width: 900px)">
+	<link rel="stylesheet" href="css/bootstrap.min.css"> </head>
+
+<body>
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container"> <a href="#" class="navbar-brand">Vibes & Ventures</a>
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+			<div class="collapse navbar-collapse navHeaderCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Episodes</a></li>
+					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class = "caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Google+</a></li>
+							<li><a href="#">Youtube</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<section class="slider">
+		<div class="flexslider">
+			<ul class="slides">
+				<li>
+					<iframe id="player_1" width="560" height="315" src="https://www.youtube.com/embed/Jv8WWBULPLA" frameborder="0" allowfullscreen></iframe>
+					<li>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/TMWXS91cHoI" frameborder="0" allowfullscreen></iframe>
+					</li>
+					<li>
+						<a href="http://www.juanlove.design"><img src="images/slider1.png" /></a>
+					</li>
+			</ul>
+		</div>
+	</section>
+	<!-- header -->
+	<div class="fixed-bg"> </div>
+	<!--/header-->
+	<!-- body-content -->
+	<div class="body-content">
+		<div class="section-inner">
+			<!-- thirds -->
+			<div class="thirds clearfix">
+				<!-- one-third -->
+				<div class="one-third mobile-collapse"> <img src="images/thumbnail.png" alt="Live Tabs">
+					<h3>Most Viewed</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+				</div>
+				<!--/one-third-->
+				<!-- one-third -->
+				<div class="one-third one-third-second mobile-collapse"> <img src="images/thumbnail.png" alt="Video Tutorial" />
+					<h3>Season 1</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+				</div>
+				<!--/one-third-->
+				<!-- one-third -->
+				<div class="one-third one-third-last mobile-collapse"> <img src="images/thumbnail.png" alt="Shop Image" />
+					<h3>All Episodes</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+				</div>
+				<!--/one-third-->
+			</div>
+			<!--/thirds-->
+		</div>
+	</div>
+	<!--/body-content-->
+	<!-- footer -->
+	<div class="navbar navbar-default">
+		<div class="container">
+			<center>
+				<p class="navbar-text">Made with &hearts; by juanlove</p>
+			</center>
+		</div>\
+	</div>
+		<!--/footer-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script defer src="js/jquery.flexslider.js"></script>
+		<script type="text/javascript">
+			$(function () {
+				SyntaxHighlighter.all();
+			});
+			$(window).load(function () {
+				// Vimeo API nonsense
+				var player = document.getElementById('player_1');
+				$f(player).addEvent('ready', ready);
+
+				function addEvent(element, eventName, callback) {
+					(element.addEventListener) ? element.addEventListener(eventName, callback, false): element.attachEvent(eventName, callback, false);
+				}
+
+				function ready(player_id) {
+					var froogaloop = $f(player_id);
+					froogaloop.addEvent('play', function (data) {
+						$('.flexslider').flexslider("pause");
+					});
+					froogaloop.addEvent('pause', function (data) {
+						$('.flexslider').flexslider("play");
+					});
+				}
+				// Call fitVid before FlexSlider initializes, so the proper initial height can be retrieved.
+				$(".flexslider").fitVids().flexslider({
+					animation: "slide"
+					, useCSS: false
+					, animationLoop: false
+					, smoothHeight: true
+					, start: function (slider) {
+						$('body').removeClass('loading');
+					}
+					, before: function (slider) {
+						$f(player).api('pause');
+					}
+				});
+			});
+		</script>
+		<!-- Syntax Highlighter -->
+		<script type="text/javascript" src="js/shCore.js"></script>
+		<script type="text/javascript" src="js/shBrushXml.js"></script>
+		<script type="text/javascript" src="js/shBrushJScript.js"></script>
+		<!-- Optional FlexSlider Additions -->
+		<script src="js/froogaloop.js"></script>
+		<script src="js/jquery.fitvid.js"></script>
+		<script src="js/demo.js"></script>
+		<script src="index.html"></script>
+
+</body>
+
+</html>
