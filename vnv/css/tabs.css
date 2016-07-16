@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+}
+
+.canister {
+	width: 75%;
+	margin: 5em auto;
+}
+
+.mix {
+	display: none;
+	text-align: center;
+	width: 30%;
+	height: 175px;
+	margin: 1% 1em;
+	background-color: #ccc;
+}
+
+.s1 {
+	background-color: blue;
+	color: white;
+}
+
+.extras {
+	background-color: orange;
+}
+
+.s2 {
+	background-color: red;
+	color: white;
+}
+
+button {
+	background: #666666;
+	border: none;
+	color: white;
+	padding: .65em;
+	border-radius: 5px;
+}
+
+input {
+	padding: .5em;
+	margin-top: 10px;
+}
+
+.title {
+	font-weight: 2em;
+}
+
+@media screen and (max-width: 500px) {
+	.mix {
+		width: 90%;
+		height: 150px;
+	}
+}
