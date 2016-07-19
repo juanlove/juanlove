@@ -8,11 +8,31 @@
 	<link rel="stylesheet" href="vnv/css/main.css">
 	<link rel="stylesheet" href="vnv/css/responsive.css" media="screen and (max-width: 900px)">
 	<link rel="stylesheet" href="vnv/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/jquery.bxslider.css">
 	<style>
 		body {
 			padding: 5px;
 		}
+
+		.bxslider {
+			background: white;
+		}
+
+		.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 	</style>
+
 </head>
 
 <body>
@@ -39,9 +59,18 @@
 	<!-- header -->
 	<div class="jumboPadding">
 		<div class="jumbotron">
-			<center> <img src="vnv/images/videoPlaceHolder.png" width="50%" height="auto">
+			<!--			<center> <img src="vnv/images/videoPlaceHolder.png" width="50%" height="auto">
 				<h2> Newest Episodes </h2> <a href="vnvEpisodes.html" class="btn btn-default">All Episodes</a>
 				<button class="btn btn-danger">Share WIP</button>
+			</center>--><center>
+			<ul class="bxslider">
+				<li>
+					<div class="videoWrapper"><iframe width="560px" height="349px" title="TEST" src="https://www.youtube.com/embed/voxfqkrO5ww" frameborder="0" allowfullscreen></iframe></div>
+				</li>
+				<li>
+					<div class="videoWrapper"><iframe width="560px" height="349px" src="https://www.youtube.com/embed/voxfqkrO5ww" frameborder="0" allowfullscreen></iframe></div>
+				</li>
+			</ul>
 			</center>
 		</div>
 	</div>
@@ -84,9 +113,19 @@
 		</div>
 	</div>
 	<!--/footer-->
+
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script>
+		$(document).ready(function () {
+			$('.bxslider').bxSlider();
+		});
+	</script>
 	<script type="text/javascript" src="vnv/js/bootstrap.js"></script>
-	<script type="text/javascript" src="vnv/js/index.js"></script>
+
+	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+	<script type="text/javascript" src="js/jquery.fitvids.js"></script>
+
 </body>
 
 </html>

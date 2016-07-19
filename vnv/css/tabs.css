@@ -47,7 +47,14 @@ input {
 	font-weight: 2em;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 900px) {
+	.mix {
+		width: 20%;
+		height: 150px;
+	}
+}
+
+@media screen and (max-width: 600px) {
 	.mix {
 		width: 90%;
 		height: 150px;
