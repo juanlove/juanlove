@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="vnv/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/jquery.bxslider.css">
 	<style>
-		body {
+		#pageSize {
 			padding: 5px;
 			width: 80%;
 			margin: 0 auto;
@@ -20,10 +20,28 @@
 			background: none;
 		}
 
+		.slideContainer {
+			width: 565px;
+			height: 320px;
+		}
+
+		.jBottom {
+			height: 150px;
+			width: 100%;
+		}
+
+
 		@media (max-width: 440px) {
-			body {
+			#pageSize {
 				width: 100%;
 			}
+
+			.slideContainer {
+				width: 100%;
+				max-width: 100%;
+				height: auto;
+			}
+
 		}
 	</style>
 </head>
@@ -50,56 +68,61 @@
 		</div>
 	</div>
 	<!-- header -->
-	<div class="jumboPadding">
-		<div class="jumbotron">
-			<!--			<center> <img src="vnv/images/videoPlaceHolder.png" width="50%" height="auto">
+	<div id="pageSize">
+		<div class="jumboPadding">
+			<div class="jumbotron">
+				<!--			<center> <img src="vnv/images/videoPlaceHolder.png" width="50%" height="auto">
 				<h2> Newest Episodes </h2> <a href="vnvEpisodes.html" class="btn btn-default">All Episodes</a>
 				<button class="btn btn-danger">Share WIP</button>
 			</center>-->
-			<center>
-				<h1>Newest Episodes!</h1>
-				<ul class="bxslider">
-					<li>
-						<div class="videoWrapper">
-							<iframe width="560px" height="349px" title="TEST" src="https://www.youtube.com/embed/voxfqkrO5ww" frameborder="0" allowfullscreen></iframe>
-						</div>
-					</li>
-					<li>
-						<div class="videoWrapper">
-							<iframe width="560px" height="349px" src="https://www.youtube.com/embed/voxfqkrO5ww" frameborder="0" allowfullscreen></iframe>
-						</div>
-					</li>
-				</ul>
-			</center>
-		</div>
-	</div>
-	<div class="fixed-bg hide-mobile"> </div>
-	<!--/header-->
-	<!-- body-content -->
-	<div class="body-content">
-		<div class="section-inner">
-			<!-- thirds -->
-			<div class="thirds clearfix">
-				<!-- one-third -->
-				<div class="one-third mobile-collapse"> <img src="vnv/images/thumbnail.png" alt="Live Tabs">
-					<h2>Most Viewed</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div>
-				<!--/one-third-->
-				<!-- one-third -->
-				<div class="one-third one-third-second mobile-collapse"> <img src="vnv/images/thumbnail.png" alt="Video Tutorial" />
-					<h2>Season 1</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div>
-				<!--/one-third-->
-				<!-- one-third -->
-				<div class="one-third one-third-last mobile-collapse"> <img src="vnv/images/thumbnail.png" alt="Shop Image" />
-					<h2>All Episodes</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div>
-				<!--/one-third-->
+				<center>
+					<h1>Newest Episodes!</h1>
+					<div class="slideContainer">
+						<ul class="bxslider">
+							<li>
+								<div class="videoWrapper">
+									<iframe width="560px" height="349px" title="TEST" src="https://www.youtube.com/embed/voxfqkrO5ww" frameborder="0" allowfullscreen></iframe>
+								</div>
+							</li>
+							<li>
+								<div class="videoWrapper">
+									<iframe width="560px" height="349px" src="https://www.youtube.com/embed/voxfqkrO5ww" frameborder="0" allowfullscreen></iframe>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="jBottom"></div>
+				</center>
 			</div>
-			<!--/thirds-->
+		</div>
+		<div class="fixed-bg hide-mobile"> </div>
+		<!--/header-->
+		<!-- body-content -->
+		<div class="body-content">
+			<div class="section-inner">
+				<!-- thirds -->
+				<div class="thirds clearfix">
+					<!-- one-third -->
+					<div class="one-third mobile-collapse"> <img src="vnv/images/thumbnail.png" alt="Live Tabs">
+						<h2>Most Viewed</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<!--/one-third-->
+					<!-- one-third -->
+					<div class="one-third one-third-second mobile-collapse"> <img src="vnv/images/thumbnail.png" alt="Video Tutorial" />
+						<h2>Season 1</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<!--/one-third-->
+					<!-- one-third -->
+					<div class="one-third one-third-last mobile-collapse"> <img src="vnv/images/thumbnail.png" alt="Shop Image" />
+						<h2>All Episodes</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<!--/one-third-->
+				</div>
+				<!--/thirds-->
+			</div>
 		</div>
 	</div>
 	<!--/body-content-->
