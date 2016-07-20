@@ -5,7 +5,8 @@ body {
 
 html,
 body {
-	width: 100%;
+	width: 80%;
+	margin: 0 auto;
 	overflow-x: hidden;
 }
 
@@ -81,9 +82,6 @@ hr {
 .vanish {
 	display: hidden:
 }
-
-
-
 
 @-webkit-keyframes sk-circleBounceDelay {
 	0%,
@@ -242,6 +240,22 @@ home section
 	border-radius: 0;
 	background: transparent;
 	color: #ffffff;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%;
+	/* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 560px;
+	height: 315px;
 }
 
 
@@ -413,8 +427,6 @@ portfolio section
 	overflow: hidden;
 }
 
-
-
 .fluid-img {
 	width: 100%;
 	display: block;
@@ -561,6 +573,11 @@ footer p {
 			width: 33.333%;
 		}
 	}
+
+	body {
+	width: 80%
+	}
+
 }
 
 
@@ -585,4 +602,21 @@ media quires for mobile
 	.vanish {
 		display: inherit;
 	}
+	.videoWrapper {
+		position: relative;
+		padding-bottom: 56.25%;
+		/* 16:9 */
+		padding-top: 25px;
+		height: 0;
+	}
+	.videoWrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+
+
 }

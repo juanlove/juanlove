@@ -57,7 +57,6 @@ ul.bxslider {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 2000;
 }
 /* PAGER */
 .bx-wrapper .bx-pager {
@@ -99,7 +98,7 @@ ul.bxslider {
 .bx-wrapper .bx-prev {
   left: 10px;
   background: url('../images/controls.png') no-repeat 0 -32px;
-	z-index: 99;
+
 }
 .bx-wrapper .bx-prev:hover,
 .bx-wrapper .bx-prev:focus {
@@ -121,7 +120,6 @@ ul.bxslider {
   width: 32px;
   height: 32px;
   text-indent: -9999px;
-  z-index: 9999;
 }
 .bx-wrapper .bx-controls-direction a.disabled {
   display: none;
