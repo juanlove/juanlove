@@ -1,337 +1,215 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<title>juanlove</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="">
-	<meta name="description" content="">
+    <title>Vibes N Ventures </title>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0 user-scalable=no">
+    <!--Google Fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Sintony:400,700|Noticia+Text:400,700' rel='stylesheet' type='text/css'>
+    <!-- css -->
+    <link rel="stylesheet" href="vnv/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vnv/css/main.css">
+    <link rel="stylesheet" href="vnv/css/responsive.css" media="screen and (max-width: 1200px)">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <style>
+        .bxslider {
+            background: none;
+        }
 
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/animate.min.css">
-	<link rel="stylesheet" href="css/et-line-font.css">
-	<link rel="stylesheet" href="css/nivo-lightbox.css">
-	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
-	<link href="css/f" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/twentytwenty.css" type="text/css" media="screen" />
-	<link rel="stylesheet" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway" rel="stylesheet">
+        .slideContainer {
+            width: 800px;
+            height: 400px;
+            margin-top: 10px;
+        }
+
+        body {
+            background-color: #1a1a1a;
+        }
+
+        .jumboPadding {
+            margin-bottom: -30px;
+            background-color: rgba(26, 41, 48, 0.5);
+        }
+
+        .jumbotron {
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .one-third {
+            padding: 5px;
+        }
+
+        .navbar {
+            height: 75px;
+        }
+
+        .navbar-brand {
+            font-size: 3em;
+            color: #F7CE3E !important;
+            font-family: "Sintony", sans-serif;
+        }
+
+        .navbar .container {
+            margin-top: 10px;
+        }
+
+        .body-content {
+            background-color: rgba(26, 41, 48, 0.0) !important;
+        }
+
+        .body-content h2 {
+            color: #F7CE3E;
+        }
+
+        .body-content p {
+            color: antiquewhite;
+        }
+
+        h1 {
+            color: antiquewhite !important;
+        }
+    </style>
 </head>
 
-<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+<body>
 
-	<!-- navigation section -->
-	<section class="navbar navbar-fixed-top custom-navbar" role="navigation">
-		<div class="container">
-			<div class="navbar-header">
-				<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="icon icon-bar"></span>
-					<span class="icon icon-bar"></span>
-					<span class="icon icon-bar"></span>
-				</button>
-				<a href="#" class="navbar-brand">juanlove</a>
+   	<div class="modal fade" id="requestInfo">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">How to donate</h4> </div>
+				<!--End Modal Header-->
+				<div class="modal-body">
+					<h3>Donation process will be done in this box.</h3>
+				</div>
+				<!--End Modal Body-->
+				<div class="modal-footer infusion-submit">
+					<button class="btn btn-danger pull-right" data-dismiss="modal">Close</button>
+				</div>
+				<!--End Modal Footer-->
 			</div>
-			<div class="collapse navbar-collapse">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#home" class="smoothScroll">HOME</a></li>
-					<li><a href="#work" class="smoothScroll">SKILLS</a></li>
-					<li><a href="#about" class="smoothScroll">ABOUT</a></li>
-					<li><a href="#portfolio" class="smoothScroll">GALLERY</a></li>
-					<li><a href="#contact" class="smoothScroll">CONTACT</a></li>
-				</ul>
-			</div>
+			<!--End Modal Content-->
 		</div>
-	</section>
-
-	<!-- home section -->
-	<section id="home">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 col-sm-12">
-					<h3>WEB DESIGN / APP DEVELOPMENT / GRAPHIC DESIGN</h3>
-					<h1>juanlove</h1>
-					<hr>
-					<a href="#work" class="smoothScroll btn btn-danger">Skills</a>
-					<a href="#contact" class="smoothScroll btn btn-default">Contact</a>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- work section -->
-	<section id="work">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 col-sm-12">
-					<div class="section-title">
-						<strong>01</strong>
-						<h1 class="heading bold">Skills</h1>
-						<hr>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.2s">
-					<i class="icon-browser medium-icon"></i>
-					<h3>Web Design</h3>
-					<hr>
-					<p>I design, update, and maintain functionality of websites by manually coding or a using content management system. </p>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.4s">
-					<i class="icon-mobile medium-icon"></i>
-					<h3>Application Development</h3>
-					<hr>
-					<p>I develop, update & maintain mobile applications through Adobe PhoneGap and Cordova.</p>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
-					<i class="icon-laptop medium-icon"></i>
-					<h3>Graphic Design</h3>
-					<hr>
-					<p>I design, illustrate & edit. Designing logos is second nature to me. And yes, you can call me the master of typography.</p>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.8s">
-					<i class="icon-presentation medium-icon"></i>
-					<h3>Infographic</h3>
-					<hr>
-					<p>I cut down jargan for people like you to read..</p>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
-					<i class="icon-printer medium-icon"></i>
-					<h3>Printing</h3>
-					<hr>
-					<p>Ask me anything about printing. Whether it be CORRECTLY printing business cards, posters or brochures, you name it, I can do it. </p>
-				</div>
-
-				<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1.2s">
-					<i class="icon-camera medium-icon"></i>
-					<h3>Photography</h3>
-					<hr>
-					<p>Provide professtional photography & video for graduations, weddings, ceremonies, etc. </p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- about section -->
-	<section id="about">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 col-sm-12 text-center">
-					<div class="section-title">
-						<strong>02</strong>
-						<h1 class="heading bold">About Me</h1>
-						<hr>
-					</div>
-				</div>
-				<!--			<div class="col-md-6 col-sm-12">
-				<img src="images/about-img.jpg" class="img-responsive" alt="about img">
-			</div>-->
-				<div class="col-md-4 col-sm-12 " id="container1">
-					<!-- The before image is first -->
-					<img class="img-responsive" src="images/coffee1.jpg" />
-					<!-- The after image is last -->
-					<img class="img-responsive" src="images/coffee2.jpg" />
-				</div>
-
-				<div class="col-md-7 col-sm-12">
-					<h3 class="bold">PAST EXPERIENCE</h3>
-					<h6 class="heading bold">Graphic Design - Web Design - App Design</h6>
-					<!-- Nav tabs -->
-					<ul class="nav nav-tabs" role="tablist">
-						<li class="active"><a href="#design" aria-controls="graphics" role="tab" data-toggle="tab">DESIGN</a></li>
-						<li><a href="#web" aria-controls="web" role="tab" data-toggle="tab">WEB</a></li>
-						<li><a href="#app" aria-controls="app" role="tab" data-toggle="tab">APP</a></li>
-					</ul>
-					<!-- tab panes -->
-					<div class="tab-content">
-						<div role="tabpanel" class="tab-pane active" id="design">
-							<p>I took a digital imaging class in high school. It was probably the only good decision I made back then, to be honest. But let's not get into that. </p>
-							<p>From there, I taught myself photography and image enhancing. I enjoyed what I was doing, and others also seemed to feel the same. Soon enough, I found myself being hired to take photos at special events and do Photoshop work for my clients.</p>
-						</div>
-						<div role="tabpanel" class="tab-pane" id="web">
-							<p>Ahh, Myspace. Home of angst-y teens, edgy subcultures and my passion for web design. As I was playing around with Myspace back in the day, I began to realize playing around with letters and numbers could be more interesting than digital imaging. </p>
-							<p>That passion is what led me to take community college courses on web design, which then brought me to Mt. Sierra College where I really learned how to strut my stuff. So thank you, Myspace.
-							</p>
-						</div>
-						<div role="tabpanel" class="tab-pane" id="app">
-							<p>Mt. Sierra College is also where I learned the know-hows of interactive design. I worked on an app for musicians as a passion project, and my professor was impressed with what I had in a short amount of time. He recommended me to design apps for the school, and that's exactly what I did. </p>
-							<p>I was hired by my college in Spring 2016, and to this day I'm working on developing their app while working as their content creator at the same time. </p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- portfolio section -->
-	<div id="portfolio">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 col-sm-12">
-					<div class="section-title">
-						<strong>03</strong>
-						<h1 class="heading bold">GALLERY</h1>
-						<hr>
-					</div>
-					<!-- ISO section -->
-					<div class="iso-section">
-						<ul class="filter-wrapper clearfix">
-							<li><a href="#" data-filter="*" class="selected opc-main-bg">All</a></li>
-
-							<li><a href="#" class="opc-main-bg" data-filter=".web">Web</a></li>
-							<li><a href="#" class="opc-main-bg" data-filter=".graphic">Graphic</a></li>
-							<li><a href="#" class="opc-main-bg" data-filter=".illustration">Illustration</a></li>
-						</ul>
-						<div class="iso-box-section wow fadeIn" data-wow-delay="0.9s">
-							<div class="iso-box-wrapper col4-iso-box">
-
-								<div class="iso-box illustration col-lg-4 col-md-4 col-sm-6">
-									<a href="images/gal_ill.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/gal_ill.jpg" alt="portfolio img"></a>
-								</div>
-
-								<!--								<div class="iso-box web graphic illurstration col-lg-4 col-md-4 col-sm-6">
-									<a href="images/gal_work.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/gal_work.jpg" alt="portfolio img"></a>
-								</div>-->
-
-								<div class="iso-box graphic col-lg-4 col-md-4 col-sm-6">
-									<a href="images/gal_ps.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/gal_ps.jpg" alt="portfolio img"></a>
-								</div>
-
-								<div class="iso-box grpahic col-lg-4 col-md-4 col-sm-6">
-									<a href="images/gal_photo.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/gal_photo.jpg" alt="portfolio img"></a>
-								</div>
-
-								<!--
-								<div class="iso-box illustration graphic col-lg-4 col-md-4 col-sm-6">
-									<a href="images/gal_ill2.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/gal_ill2.jpg" alt="portfolio img"></a>
-								</div>
--->
-
-								<div class="iso-box graphic col-lg-4 col-md-4 col-sm-6">
-									<a href="images/gal_ps2.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/gal_ps2.jpg" alt="portfolio img"></a>
-								</div>
-
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
+		<!--End modal-dialog-->
 	</div>
 
 
-	<!-- contact section -->
-	<section id="contact">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 col-sm-12 text-center">
-					<div class="section-title">
-						<strong>04</strong>
-						<h1 class="heading bold">CONTACT ME</h1>
-						<hr>
-					</div>
-				</div>
-				<div class="col-md-6 col-sm-12 contact-info">
-					<h2 class="heading bold">CONTACT INFO</h2>
-					<p>I can be reached through email, phone or social media. </p>
-					<div class="col-md-6 col-sm-4">
-						<h3><i class="icon-envelope medium-icon wow bounceIn" data-wow-delay="0.6s"></i> EMAIL</h3>
-						<p>juan.love@outlook.com</p>
-					</div>
-					<div class="col-md-6 col-sm-4">
-						<h3><i class="icon-phone medium-icon wow bounceIn" data-wow-delay="0.6s"></i> PHONES</h3>
-						<p style="text-decoration: none;">CELL / 626 - 552 - 5154</p>
-					</div>
-				</div>
-				<div class="col-md-6 col-sm-12">
-					<form action="#" method="get" class="wow fadeInUp" data-wow-delay="0.6s">
-						<div class="col-md-6 col-sm-6">
-							<input type="text" class="form-control" placeholder="Name" name="name">
-						</div>
-						<div class="col-md-6 col-sm-6">
-							<input type="email" class="form-control" placeholder="Email" name="email">
-						</div>
-						<div class="col-md-12 col-sm-12">
-							<textarea class="form-control" placeholder="Message" rows="7" name="message"></textarea>
-						</div>
-						<div class="col-md-offset-4 col-md-8 col-sm-offset-4 col-sm-8">
-							<input type="submit" class="form-control" value="SEND MESSAGE">
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</section>
 
-	<!-- footer section -->
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 col-sm-12">
-					<p>Made with &hearts; by juanlove</p>
-					<hr>
-					<ul class="social-icon">
-						<li>
-							<a href="http://www.facebook.com/juan.a.urena" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a>
-						</li>
-						<li>
-							<a href="http://www.twitter.com/juanlovedesigns" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a>
-						</li>
-						<li>
-							<a href="http://www.instagram.com/juanlove.design" class="fa fa-instagram wow fadeIn" data-wow-delay="0.9s"></a>
-						</li>
-						<li>
-							<a href="#" class="fa fa-linkedin wow fadeIn" data-wow-delay="0.9s"></a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</footer>
-
-	<!-- Google Analytics	-->
-	<script>
-		(function (i, s, o, g, r, a, m) {
-			i['GoogleAnalyticsObject'] = r;
-			i[r] = i[r] || function () {
-				(i[r].q = i[r].q || []).push(arguments)
-			}, i[r].l = 1 * new Date();
-			a = s.createElement(o)
-				, m = s.getElementsByTagName(o)[0];
-			a.async = 1;
-			a.src = g;
-			m.parentNode.insertBefore(a, m)
-		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-		ga('create', 'UA-72514525-2', 'auto');
-		ga('send', 'pageview');
-
-		$(window).load(function () {
-			$("#container1").twentytwenty();
-		});
-	</script>
-
-
-	<script type="text/javascript" sc="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.jss"></script>
-
-	<!-- If no online access, fallback to our hardcoded version of jQuery -->
-	<script>
-		window.jQuery || document.write('<script src="js/jquery.js"><\/script>')
-	</script>
-
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/smoothscroll.js"></script>
-	<script src="js/isotope.js"></script>
-	<script src="js/imagesloaded.min.js"></script>
-	<script src="js/nivo-lightbox.min.js"></script>
-	<script src="js/jquery.backstretch.min.js"></script>
-	<script src="js/wow.min.js"></script>
-	<script src="js/jquery.event.move.js"></script>
-	<script src="js/jquery.twentytwenty.js"></script>
-	<script src="js/custom.js"></script>
-
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container"> <a href="vnvHome.html" class="navbar-brand">Vibes N Ventures</a>
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            <div class="collapse navbar-collapse navHeaderCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="vnvEpisodes.html">Episodes</a></li>
+                    <!--
+					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class = "caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Instagram</a></li>
+							<li><a href="#">Youtube</a></li>
+						</ul>
+					</li>
+-->
+                    <li><a href="vnvAbout.html">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- header -->
+    <div id="pageSize">
+        <div class="jumboPadding">
+            <div class="jumbotron">
+                <!--			<center> <img src="vnv/images/videoPlaceHolder.png" width="50%" height="auto">
+				<h2> Newest Episodes </h2> <a href="vnvEpisodes.html" class="btn btn-default">All Episodes</a>
+				<button class="btn btn-danger">Share WIP</button>
+			</center>-->
+                <center>
+                    <h1>Newest Episodes!</h1>
+                    <div class="slideContainer">
+                        <ul class="bxslider">
+                            <li>
+                                <div class="videoWrapper">
+                                    <iframe width="900px" height="450px" src="https://www.youtube.com/embed/Kxhoicqj4ec" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="videoWrapper">
+                                    <iframe width="900px" height="450px" src="https://www.youtube.com/embed/Kxhoicqj4ec" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="videoWrapper">
+                                    <iframe width="900px" height="450px" src="https://www.youtube.com/embed/Kxhoicqj4ec" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="videoWrapper">
+                                    <iframe width="900px" height="450px" src="https://www.youtube.com/embed/Kxhoicqj4ec" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="jBottom"></div>
+                </center>
+            </div>
+        </div>
+        <div class="fixed-bg hide-mobile"> </div>
+        <!--/header-->
+        <!-- body-content -->
+        <div class="body-content">
+            <div class="section-inner">
+                <!-- thirds -->
+                <div class="thirds clearfix">
+                    <!-- one-third -->
+                    <div class="one-third mobile-collapse"> <img src="vnv/images/whatis.png" alt="What is Vibes N Ventures">
+                        <h2>What is<br> Vibes N Ventures</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <!--/one-third-->
+                    <!-- one-third -->
+                    <div class="one-third one-third-second mobile-collapse"> <img src="vnv/images/standfor.png" alt="What we stand for" />
+                        <h2>What we stand for</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <!--/one-third-->
+                    <!-- one-third -->
+                    <div class="one-third one-third-last mobile-collapse"> <img src="vnv/images/whoweare.png" alt="Who we are" />
+                        <h2>Who we are</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <!--/one-third-->
+                </div>
+                <!--/thirds-->
+            </div>
+        </div>
+    </div>
+    <!--/body-content-->
+    <!-- footer -->
+    <footer>
+        <div class="navbar navbar-inverse navbar-bottom footerColor">
+            <div class="container">
+                <p class="navbar-text">
+                    <center style="margin-top: 10px; float: left"><a href="http://www.juanlove.design" style="text-decoration: none; color: slateGrey;">Made with <span style="color: red">&hearts;</span> by juanlove</a></center><span style="float:right;"><a href="#requestInfo" data-toggle="modal">
+						<button class="btn btn-large btn-info openSans">Donate</button>
+					</a></span>
+                </p>
+            </div>
+        </div>
+        <!--/footer-->
+    </footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.bxslider').bxSlider();
+        });
+    </script>
+    <script type="text/javascript" src="vnv/js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+    <script type="text/javascript" src="js/jquery.fitvids.js"></script>
 </body>
 
 </html>

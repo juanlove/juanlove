@@ -18,13 +18,13 @@ $(function() {
     // Delay function invoked to make sure user stopped typing
     delay(function(){
       inputText = $("#input").val().toLowerCase();
-      
+
       // Check to see if input field is empty
-      if ((inputText.length) > 0) {            
+      if ((inputText.length) > 0) {
         $( '.mix').each(function() {
           $this = $("this");
-          
-           // add item to be filtered out if input text matches items inside the title   
+
+           // add item to be filtered out if input text matches items inside the title
            if($(this).children('.title').text().toLowerCase().match(inputText)) {
             $matching = $matching.add(this);
           }

@@ -4,34 +4,36 @@
 <head>
 	<title>Episodes </title>
 	<meta name="viewport" content="width=device-width, intial-scale=1.0 user-scalable=no">
+
+    <!--Google Fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Sintony:400,700|Noticia+Text:400,700' rel='stylesheet' type='text/css'>
+
 	<!-- css -->
-	<link rel="stylesheet" href="vnv/css/main.css">
-	<link rel="stylesheet" href="vnv/css/responsive.css" media="screen and (max-width: 900px)">
 	<link rel="stylesheet" href="vnv/css/bootstrap.min.css">
+	<link rel="stylesheet" href="vnv/css/main.css">
+	<link rel="stylesheet" href="vnv/css/responsive.css" media="screen and (max-width: 1200px)">
 	<link rel="stylesheet" href="vnv/css/tabs.css">
 	<link rel="stylesheet" href="css/lity.css">
 	<style>
+        .allEpisodes {
+            color: antiquewhite;
+        }
 
+        .canister {
+            margin-top: 125px;
+        }
 	</style>
 </head>
 
 <body>
 	<!-- Bootstrap navbar -->
-	<div class="navbar navbar-default navbar-fixed-top">
+	<div class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container"> <a href="vnvHome.html" class="navbar-brand">Vibes N Ventures</a>
 			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
 			<div class="collapse navbar-collapse navHeaderCollapse">
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="vnvHome.html">Home</a></li>
 					<li class="active"><a href="vnvEpisodes.html">Episodes</a></li>
-					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class = "caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Twitter</a></li>
-							<li><a href="#">Facebook</a></li>
-							<li><a href="#">Instagram</a></li>
-							<li><a href="#">Youtube</a></li>
-						</ul>
-					</li>
 					<li><a href="vnvAbout.html">About Us</a></li>
 				</ul>
 			</div>
@@ -39,11 +41,11 @@
 	</div>
 	<!-- MixitUp -->
 	<div class="canister">
-		<h1>All Episodes</h1>
+		<h1 class="allEpisodes">All Episodes</h1>
 		<button class="filter btn btn-default btn-sm" data-filter="all">All</button>
 		<button class="filter btn btn-default btn-sm" data-filter=".s1">Season 1</button>
-		<button class="filter btn btn-default btn-sm" data-filter=".s2">Season 2</button>
-		<button class="filter btn btn-default btn-sm" data-filter=".extras">Extras</button>
+		<button class="filter btn btn-default btn-sm" data-filter=".s2">Toddtucker Tuckertodd</button>
+		<button class="filter btn btn-default btn-sm" data-filter=".extras">Favorite Episodes</button>
 		<input  type="text" id="input" placeholder="Type here">
 		<hr>
 		<!--<a href="//www.youtube.com/REPLACE data-lity><div class="mix s1">
@@ -132,7 +134,7 @@
 		</div>
 	</div>
 	<!--/footer-->
-	<div class="navbar navbar-default navbar-fixed-bottom">
+	<div class="navbar navbar-inverse colorFooter">
 		<div class="container">
 			<p class="navbar-text">
 				<center style="margin-top: 10px;"><a href="http://www.juanlove.design" style="text-decoration: none; color: slateGrey;">Made with <span style="color: red">&hearts;</span> by juanlove</a></center>
