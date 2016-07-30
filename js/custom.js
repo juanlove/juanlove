@@ -83,11 +83,15 @@ $(function(){
   $(function(){
     jQuery(document).ready(function() {
     $('#home').backstretch([
-       "images/home-bg-slideshow1.jpg",
-       "images/home-bg-slideshow2.jpg",
+       "images/background1.png",
+       "images/background1alt.png",
         ],  {duration: 2000, fade: 750});
     });
   })
 
+});
+
+$(window).load(function(){
+  $("#container1").twentytwenty();
 });
 
