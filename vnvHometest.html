@@ -20,15 +20,10 @@
             width: 800px;
             height: 400px;
             margin-top: 10px;
-            background: black !important;
         }
 
-        .videoWrapper {
-            background: none !important;
-        }
-
-        iframe {
-            background: none !important;
+        body {
+            background-color: #1a1a1a;
         }
 
         .one-third {
@@ -53,7 +48,7 @@
 
         @media screen and (max-width: 700px) {
             .navbar-brand {
-                font-size: 2em;
+                font-size: 1em;
             }
         }
     </style>
@@ -81,7 +76,6 @@
         </div>
         <!--End modal-dialog-->
     </div>
-    <!--Navbar-->
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -90,9 +84,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="vnvHome.html">Home</a></li>
-                    <li><a href="vnvEpisodes.html">Episodes</a></li>
-                    <li><a href="vnvAbout.html">About Us</a></li>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Episodes</a></li>
+                    <li><a href="#">About Us</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -112,7 +106,7 @@
                     <ul class="bxslider">
                         <li>
                             <div class="videoWrapper">
-                                <iframe width="790px" height="460px" src="https://www.youtube.com/embed/Kxhoicqj4ec" frameborder="0" allowfullscreen></iframe>
+                                <iframe width="790px" height="455px" src="https://www.youtube.com/embed/Kxhoicqj4ec" frameborder="0" allowfullscreen></iframe>
                             </div>
                         </li>
                         <li>
@@ -132,7 +126,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="jBottom hide-mobile"></div>
+                <div class="jBottom"></div>
             </center>
         </div>
         <div class="fixed-bg hide-mobile"> </div>
@@ -166,16 +160,18 @@
         </div>
     </div>
     <!--/body-content-->
-    <nav class="navbar navbar-inverse navbar-fixed-bottom">
-        <div class="container">
-            <p class="navbar-text pull-left">
-               <a href="http://www.juanlove.design" style="text-decoration: none; color: slateGrey;">Made with <span style="color: red">&hearts;</span> by juanlove</a>
-            </p>
-            <a href="#requestInfo" data-toggle="modal">
-						<button class="btn btn-large btn-info openSans pull-right lift5">Fundraiser</button>
-            </a>
+    <!-- footer -->
+    <footer>
+        <div class="navbar navbar-inverse navbar-bottom footerColor">
+            <div class="container">
+                <p class="navbar-text">
+                    <center style="margin-top: 10px; float: left"><a href="http://www.juanlove.design" style="text-decoration: none; color: slateGrey;">Made with <span style="color: red">&hearts;</span> by juanlove</a></center><span style="float:right;"><a href="#requestInfo" data-toggle="modal">
+						<button class="btn btn-large btn-info openSans">Fundraiser</button>
+					</a></span> </p>
+            </div>
         </div>
-    </nav>
+        <!--/footer-->
+    </footer>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>
         $(document).ready(function () {
