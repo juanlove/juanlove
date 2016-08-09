@@ -1,5 +1,67 @@
+.title {
+    font-size: 1.5em;
+    margin-top: 30%;
+    background: black;
+}
+
 #episode1 {
     background-image: url("http://img.youtube.com/vi/Kxhoicqj4ec/0.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+#tttt8 {
+    background-image: url("http://img.youtube.com/vi/sBBUIjyIav0/hqdefault.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+#tttt7 {
+    background-image: url("http://img.youtube.com/vi/MGE1NRqiWg4/hqdefault.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+#tttt6 {
+    background-image: url("http://img.youtube.com/vi/-IE-bkrz9-0/hqdefault.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+#tttt5 {
+    background-image: url("http://img.youtube.com/vi/ts61rC2sICY/hqdefault.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+#tttt4 {
+    background-image: url("http://img.youtube.com/vi/Cyo_lPh_Y9w/hqdefault.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+#tttt3 {
+    background-image: url("http://img.youtube.com/vi/FEAd0Nl8Vys/hqdefault.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+#tttt2 {
+    background-image: url("http://img.youtube.com/vi/fCuZy2-VsDw/hqdefault.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+#tttt1 {
+    background-image: url("http://img.youtube.com/vi/LoHT9g9UNRc/hqdefault.jpg") !important;
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
