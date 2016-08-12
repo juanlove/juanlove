@@ -23,7 +23,8 @@
      max-width: 100%;
      height: auto;
  }
-d
+
+
  @media screen and (max-width: 900px) {
      div.one-third {
          width: 47.5%;
@@ -75,5 +76,15 @@ d
      .mobile-center {
          text-align: center;
      }
+
+     .mobile-only {
+         display: inherit;
+     }
+
+     .break {
+         height: 10px;
+         display: inherit;
+     }
+
 
  }

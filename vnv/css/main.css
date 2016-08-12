@@ -30,7 +30,6 @@ p {
     width: 1200px;
     margin: 0 auto;
     /*background-color: rgba(255, 255, 255, .2);*/
-
 }
 
 div.h1 {
@@ -210,8 +209,24 @@ div.footer {
     margin-top: 6px;
 }
 
+.mobile-only {
+    display: none;
+}
+
+.break {
+    height: 0px;
+    display: none;
+}
+
+.episodeDivider {
+    width: 90%;
+    height: 1px;
+    background-color: white;
+}
+
 
 /*Back to the top*/
+
 #back-to-top {
     position: fixed;
     bottom: 60px;
@@ -230,9 +245,11 @@ div.footer {
     transition: opacity 0.2s ease-out;
     opacity: 0;
 }
+
 #back-to-top:hover {
     background: #e9ebec;
 }
+
 #back-to-top.show {
     opacity: 5;
 }

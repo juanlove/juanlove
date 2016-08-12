@@ -1,7 +1,8 @@
 .title {
     font-size: 1.5em;
     margin-top: 30%;
-    background: black;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
 #episode1 {
