@@ -44,14 +44,31 @@
         }
 
         .MP {
-               font-size: 50px !important;
+            font-size: 50px !important;
         }
 
         .testTest {
             height: 100px !important;
         }
+
+        .socialTitles {
+            text-align: center;
+        }
+
+        .aboutVNV ul {
+            font-family:  'Noticia Text', serif !important;
+        }
     </style>
 </head>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <body>
     <div class="modal fade" id="requestInfo">
@@ -75,7 +92,6 @@
         </div>
         <!--End modal-dialog-->
     </div>
-
     <!-- Navbar -->
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
@@ -98,24 +114,22 @@
         <div id="aboutALL">
             <div>
                 <center>
-                    <h1 class="MP" >3 MEDIA PRODUCTIONS</h1> </center>
+                    <h1 class="MP">3 MEDIA PRODUCTIONS</h1> </center>
             </div>
             <hr>
             <div class="aboutVNV">
-                <p>We love creating media content worth sharing. We have passion for transforming ideas into feel good video stories. Leading the way in creating content specifically for the mobile media platform.
-                    <br> Helping local businesses increase their brand awareness by creating content for Local Public Broadcasting Television.
-                    <br> Contact us if you have an idea for a Human Interest story which we can cover and share with others in a Positive manner.</p>
+                <p>We are a production Company helping businesses increase brand awareness, as well as, produce shows for all Media Platforms. For more information, Contact us here</p>
                 <ul>
-                    <li>Studio A: 847 E Olive Monrovia CA 91016 KGEM 3 TV</li>
-                    <li>Studio B: Lorem Ipsum</li>
-                    <li>Contact: 626.538.5937
+                    <li>STUDIO A: KGEM 3 TV Studio A: 847 E Olive Monrovia CA 91016</li>
+                    <li>STUDIO B: DCTV Duarte 1640 3rd St. Duarte CA 91010</li>
+                    <li>Contact: (626) 538 5937
                         <br> 3mediaTVproductions@gmail.com</li>
                 </ul>
             </div>
             <hr>
             <div class="socialTitle">
                 <center>
-                    <h2>Current Real Time Social Media Activity</h2></center>
+                    <h2>Current Real Time Social Media</h2></center>
             </div>
             <div class="body-content">
                 <div class="section-inner">
@@ -123,19 +137,21 @@
                     <div class="thirds clearfix">
                         <!-- one-third -->
                         <div class="one-third mobile-collapse">
-                            <!--						<center><h2>FACEBOOK</h2></center>--><img src="vnv/images/fbCol.png" alt="Facebook">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                           <h2 class="socialTitles">FACEBOOK</h2>
+                            <div class="fb-post" data-href="https://www.facebook.com/20531316728/posts/10154009990506729/" data-width="500" data-show-text="true">
+                                <blockquote cite="https://www.facebook.com/20531316728/posts/10154009990506729/" class="fb-xfbml-parse-ignore">Posted by <a href="https://www.facebook.com/facebook/">Facebook</a> on&nbsp;<a href="https://www.facebook.com/20531316728/posts/10154009990506729/">Thursday, August 27, 2015</a></blockquote>
+                            </div>
                         </div>
                         <!--/one-third-->
                         <!-- one-third -->
-                        <div class="one-third one-third-second mobile-collapse"> <img src="vnv/images/isCol.png" alt="instagram" />
-                            <!--						<h2>INSTAGRAM</h2>-->
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <div class="one-third one-third-second mobile-collapse"><h2 class="socialTitles">INSTAGRAM</h2><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/c685abf23ccb5df6adbd95fc7cab6536.html" id="lightwidget_c685abf23c" name="lightwidget_c685abf23c"  scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+
+
                         </div>
                         <!--/one-third-->
                         <!-- one-third -->
-                        <div class="one-third one-third-last mobile-collapse testTEST">
-                            <a class="twitter-timeline" data-lang="en" data-height="750" data-theme="light" data-link-color="#FAB81E" href="https://twitter.com/VibesNVentures">Tweets by VibesNVentures</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        <div class="one-third one-third-last mobile-collapse testTEST"><h2 class="socialTitles">TWITTER</h2> <a class="twitter-timeline" data-lang="en" data-height="750" data-theme="light" data-link-color="#FAB81E" href="https://twitter.com/VibesNVentures">Tweets by VibesNVentures</a>
+                            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                         </div>
                         <!--/one-third-->
                     </div>
@@ -148,11 +164,9 @@
     <!--/footer-->
     <nav class="navbar navbar-inverse navbar-fixed-bottom">
         <div class="container">
-            <p class="navbar-text pull-left">
-               <a href="http://www.juanlove.design" style="text-decoration: none; color: slateGrey;">Made with <span style="color: red">&hearts;</span> by juanlove</a>
-            </p>
+            <p class="navbar-text pull-left"> <a href="http://www.juanlove.design" style="text-decoration: none; color: slateGrey;">Made with <span style="color: red">&hearts;</span> by juanlove</a> </p>
             <a href="#requestInfo" data-toggle="modal">
-						<button class="btn btn-large btn-info openSans pull-right lift5">Fundraiser</button>
+                <button class="btn btn-large btn-info openSans pull-right lift5">Fundraiser</button>
             </a>
         </div>
     </nav>
