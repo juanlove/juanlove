@@ -41,6 +41,9 @@ div.h1 {
     margin-bottom: -30px;
     background-color: rgba(26, 41, 48, 0.5);
     z-index: 5;
+    background-image: url(../images/theater.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
 .jumbtron center {
@@ -62,10 +65,6 @@ div.fixed-bg {
     background: none;
 }
 
-.slideContainer {
-    width: 800px;
-    height: 400px;
-}
 
 .jBottom {
     height: 150px;
