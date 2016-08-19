@@ -12,6 +12,13 @@
     background-position: center;
 }
 
+#episode2 {
+    background-image: url("http://img.youtube.com/vi/CmNpTO02mZM/maxresdefault.jpg") !important;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
 #tttt8 {
     background-image: url("http://img.youtube.com/vi/sBBUIjyIav0/hqdefault.jpg") !important;
     background-repeat: no-repeat;
@@ -71,13 +78,20 @@
 #fgs1 {
     background-image: url("../images/thumbnails/feelGoodStoryOne.png") !important;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
+}
+
+#fgs2 {
+    background-image: url("http://img.youtube.com/vi/F7xfhvm81Y4/maxresdefault.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
 }
 
 #br1 {
     background-image: url("../images/thumbnails/behindReality1.jpg") !important;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 }

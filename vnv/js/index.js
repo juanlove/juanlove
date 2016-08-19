@@ -5,7 +5,7 @@ $(function () {
             , effects: 'fade rotateX(-45deg) translateY(-10%)'
         }
         , load: {
-            filter: "(.is_resource)"
+            filter: ".vnv"
         }
     });
     var inputText;
