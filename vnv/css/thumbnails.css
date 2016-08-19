@@ -74,3 +74,10 @@
     background-size: contain;
     background-position: center;
 }
+
+#br1 {
+    background-image: url("../images/thumbnails/behindReality1.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
