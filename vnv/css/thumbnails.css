@@ -67,3 +67,10 @@
     background-size: auto;
     background-position: center;
 }
+
+#fgs1 {
+    background-image: url("../images/thumbnails/feelGoodStoryOne.png") !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}

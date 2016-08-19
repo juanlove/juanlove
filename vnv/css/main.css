@@ -23,6 +23,15 @@ p {
     font-family: 'Sintony', sans-serif !important;
 }
 
+h1 {
+    color: antiquewhite !important;
+}
+
+.descriptTitle {
+    color: antiquewhite;
+    font-family: 'Noticia Text', serif;
+}
+
 #pageSize {
     padding-left: 5px;
     padding-right: 5px;
@@ -65,10 +74,28 @@ div.fixed-bg {
     background: none;
 }
 
+.slideContainer {
+    width: 590px;
+    height: 200px;
+    margin-top: 21px;
+    margin-left: 13px;
+    margin-bottom: 200px;
+}
+
+.videoWrapper {
+    background: none;
+    height: 330px;
+}
 
 .jBottom {
     height: 150px;
     width: 100%;
+}
+
+.bxslider iframe {
+    background: none !important;
+    width: 590px;
+    height: 330px;
 }
 
 
@@ -139,6 +166,10 @@ div.one-third {
 
 div.one-third-last {
     margin: 0;
+}
+
+.descriptTitle {
+    text-align: center;
 }
 
 
