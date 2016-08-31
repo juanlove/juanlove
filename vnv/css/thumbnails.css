@@ -89,6 +89,13 @@
     background-position: center;
 }
 
+#chf1 {
+    background-image: url("../images/thumbnails/chf1.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 #br1 {
     background-image: url("../images/thumbnails/behindReality1.jpg") !important;
     background-repeat: no-repeat;
