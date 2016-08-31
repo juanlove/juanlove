@@ -19,6 +19,13 @@
     background-position: center;
 }
 
+#episode2 {
+    background-image: url("../images/thumbnails/vnvEp3.png") !important;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
 #tttt8 {
     background-image: url("http://img.youtube.com/vi/sBBUIjyIav0/hqdefault.jpg") !important;
     background-repeat: no-repeat;
