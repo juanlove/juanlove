@@ -60,7 +60,7 @@ div.h1 {
 }
 
 div.fixed-bg {
-    background-image: url("../images/fixed1.png");
+    background-image: url("../images/fixed2.png");
     min-height: 200px;
     background-attachment: fixed;
     background-position: center;
@@ -68,6 +68,7 @@ div.fixed-bg {
     background-size: cover;
     z-index: 0;
     background-color: #1a1a1a;
+    background-size: contain;
 }
 
 .bxslider {
