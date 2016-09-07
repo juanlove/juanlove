@@ -5,6 +5,10 @@
     background-color: rgba(0, 0, 0, 0.5)
 }
 
+/*VIBES N VENTURES*/
+
+/*vnv by episode*/
+
 #episode1 {
     background-image: url("http://img.youtube.com/vi/Kxhoicqj4ec/0.jpg") !important;
     background-repeat: no-repeat;
@@ -25,6 +29,8 @@
     background-size:cover;
     background-position: center;
 }
+
+/*vnv by title*/
 
 #vnv1 {
     background-image: url("../images/thumbnails/vnv1.png") !important;
@@ -53,6 +59,8 @@
     background-size:cover;
     background-position: center;
 }
+
+/*Toddtucker Tuckertodd*/
 
 #tttt8 {
     background-image: url("http://img.youtube.com/vi/sBBUIjyIav0/hqdefault.jpg") !important;
@@ -110,6 +118,8 @@
     background-position: center;
 }
 
+/*Feel Good Stories*/
+
 #fgs1 {
     background-image: url("../images/thumbnails/feelGoodStoryOne.png") !important;
     background-repeat: no-repeat;
@@ -124,6 +134,8 @@
     background-position: center;
 }
 
+/*Coach Hardy Fitness*/
+
 #chf1 {
     background-image: url("../images/thumbnails/chf1.jpg") !important;
     background-repeat: no-repeat;
@@ -131,6 +143,14 @@
     background-position: center;
 }
 
+#chf2 {
+    background-image: url("../images/thumbnails/chf2.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*Behind Reality*/
 #br1 {
     background-image: url("../images/thumbnails/behindReality1.jpg") !important;
     background-repeat: no-repeat;
