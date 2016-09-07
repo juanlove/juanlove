@@ -26,6 +26,34 @@
     background-position: center;
 }
 
+#vnv1 {
+    background-image: url("../images/thumbnails/vnv1.png") !important;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+#vnv2 {
+    background-image: url("http://img.youtube.com/vi/0cJD-d1jMrs/maxresdefault.jpg") !important;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+#vnv3 {
+    background-image: url("../images/thumbnails/vnv3.png") !important;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+#vnv4 {
+    background-image: url("../images/thumbnails/vnv.png") !important;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
 #tttt8 {
     background-image: url("http://img.youtube.com/vi/sBBUIjyIav0/hqdefault.jpg") !important;
     background-repeat: no-repeat;
@@ -105,6 +133,20 @@
 
 #br1 {
     background-image: url("../images/thumbnails/behindReality1.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#br2 {
+    background-image: url("../images/thumbnails/br2.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#br3 {
+    background-image: url("../images/thumbnails/br3.png") !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
