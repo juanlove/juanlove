@@ -134,6 +134,22 @@
     background-position: center;
 }
 
+
+#fgs3 {
+    background-image: url("../images/thumbnails/br3.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#fgs4 {
+    background-image: url("../images/thumbnails/fgs4.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
 /*Coach Hardy Fitness*/
 
 #chf1 {
@@ -160,13 +176,6 @@
 
 #br2 {
     background-image: url("../images/thumbnails/br2.png") !important;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-#br3 {
-    background-image: url("../images/thumbnails/br3.png") !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
