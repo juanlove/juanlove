@@ -1,0 +1,93 @@
+ .videoWrapper {
+     position: relative;
+     padding-bottom: 56.25%;
+     /* 16:9 */
+     padding-top: 25px;
+
+ }
+
+
+ .bxslider iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+ }
+
+
+ .jumbotron {
+     background-image: none;
+ }
+
+
+ #pageSize {
+     width: 800px;
+ }
+
+ .slideContainer {
+     width: 700px;
+     max-width: 100%;
+     height: auto;
+     margin-top: 0px;
+     margin-left: 0px;
+     margin-bottom: 0px;
+ }
+
+ @media screen and (max-width: 900px) {
+     div.one-third {
+         width: 47.5%;
+     }
+     div.one-third-second {
+         margin: 0;
+     }
+     div.one-third-last {
+         clear: both;
+         float: none;
+         width: auto;
+         padding: 20px 0 0 0;
+     }
+
+     #pageSize {
+         width: 100%;
+     }
+
+ }
+
+ @media screen and (max-width: 620px) {
+     .navbar-brand {
+         font-size: 20px;
+     }
+ }
+
+ @media screen and (max-width: 500px) {
+     div.mobile-collapse {
+         width: auto;
+         float: none;
+         margin-right: 0;
+     }
+     .hide-mobile {
+         display: none;
+     }
+     #searchInput {
+         margin-top: 15px;
+     }
+     .fullCat {
+         width: 100%;
+         float: left;
+         margin-top: 7px;
+     }
+     .stretch {
+         width: 100%;
+     }
+     .mobile-center {
+         text-align: center;
+     }
+     .mobile-only {
+         display: inherit;
+     }
+     .break {
+         height: 10px;
+         display: inherit;
+     }
+ }
