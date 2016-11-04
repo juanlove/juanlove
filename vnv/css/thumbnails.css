@@ -196,6 +196,27 @@
     background-position: center;
 }
 
+#ymca4 {
+    background-image: url("../images/thumbnails/ymcaBall3.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#ymca5 {
+    background-image: url("../images/thumbnails/ymcaBall4.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#ymca6 {
+    background-image: url("../images/thumbnails/ymcaBall5.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 
 /*Behind Reality*/
 #br1 {
