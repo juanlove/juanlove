@@ -24,11 +24,66 @@
 }
 
 #nh3 {
-    background-image: url("http://img.youtube.com/vi/JASeMtKgiYk/maxresdefault.jpg") !important;
+    background-image: url("../images/thumbnails/nh3.png") !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
+#nh4 {
+    background-image: url("http://img.youtube.com/vi/MaqDSHACTB8/maxresdefault.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#nh5 {
+    background-image: url("http://img.youtube.com/vi/lLidADSJFts/maxresdefault.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#nh6 {
+    background-image: url("http://img.youtube.com/vi/2P2DX00D_JA/maxresdefault.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#nh7 {
+    background-image: url("http://img.youtube.com/vi/zz20z_W3On0/maxresdefault.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#nh8 {
+    background-image: url("http://img.youtube.com/vi/ZJ6dSZ5WTKM/maxresdefault.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#nh9 {
+    background-image: url("http://img.youtube.com/vi/8aLcKEcyrf0/maxresdefault.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*
+
+#nh {
+    background-image: url("../images/thumbnails") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+*/
+
+
+
 
 /*vnv by episode*/
 
@@ -167,6 +222,14 @@
 
 #fgs4 {
     background-image: url("../images/thumbnails/fgs4.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#fgs5 {
+    background-image: url("http://img.youtube.com/vi/JASeMtKgiYk/maxresdefault.jpg") !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
