@@ -2,10 +2,6 @@
   font-family: 'Lato', sans-serif;
 }
 
-.active {
-  color: red;
-}
-
 #primary_nav_wrap
 {
 	margin-top:15px
@@ -29,7 +25,7 @@
 	font-size:12px;
 	line-height:32px;
 	padding:0 15px;
-    background: rgba(350, 350, 350, 0.5)
+    background: rgba(0, 0, 0, 0.5 !important)
 }
 
 #primary_nav_wrap ul li
@@ -71,7 +67,6 @@
 #primary_nav_wrap
 {
 	margin-top:15px;
-  background: rbga(0, 0, 0, 0.5);
 }
 
 #primary_nav_wrap ul
@@ -81,8 +76,6 @@
 	float:left;
 	margin:0;
 	padding:0;
-  background: rbga(0, 0, 0, 0.5);
-
 }
 
 #primary_nav_wrap ul a
@@ -94,7 +87,6 @@
 	font-size:12px;
 	line-height:32px;
 	padding:0 15px;
-  background: rbga(0, 0, 0, 0.5);
 }
 
 #primary_nav_wrap ul li
@@ -103,18 +95,18 @@
 	float:left;
 	margin:0;
 	padding:0;
-  background: rbga(0, 0, 0, 0.5);
+
 }
 
 #primary_nav_wrap ul li.current-menu-item
 {
-	background: rgba(0, 0, 0, 0.5);
+
 
 }
 
 #primary_nav_wrap ul li:hover
 {
-	background: rgba(0, 0, 0, 0.5);
+
 }
 
 #primary_nav_wrap ul ul
@@ -123,8 +115,6 @@
 	position:absolute;
 	top:100%;
 	left:0;
-	background: rbga(0, 0, 0, 0.5);
-
 	padding:0
 }
 
@@ -132,27 +122,23 @@
 {
 	float:none;
 	width:200px;
-  background: rbga(0, 0, 0, 0.5);
 }
 
 #primary_nav_wrap ul ul a
 {
 	line-height:120%;
 	padding:10px 15px;
-  background: rbga(0, 0, 0, 0.5);
 }
 
 #primary_nav_wrap ul ul ul
 {
 	top:0;
 	left:100%;
-  background: rbga(0, 0, 0, 0.5);
 }
 
 #primary_nav_wrap ul li:hover > ul
 {
 	display:block;
-  background: rbga(0, 0, 0, 0.5);
 }
 
 
@@ -178,4 +164,8 @@
 #primary_nav_wrap ul li:hover > ul
 {
 	display:block
+}
+
+.active {
+  color: orange !important;
 }
