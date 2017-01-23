@@ -23,12 +23,13 @@
 #primary_nav_wrap ul a
 {
 	display:block;
-	color:#333;
+	color: #FFFFFF;
 	text-decoration:none;
 	font-weight:700;
 	font-size:12px;
 	line-height:32px;
 	padding:0 15px;
+    background: rgba(350, 350, 350, 0.5)
 }
 
 #primary_nav_wrap ul li
