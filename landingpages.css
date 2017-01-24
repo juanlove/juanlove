@@ -54,6 +54,7 @@
 #primary_nav_wrap ul li:hover
 {
         background-color: rgba(0, 0, 0, 0.75) !important;
+        color: aqua !important;
 
 }
 
