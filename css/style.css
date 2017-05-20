@@ -262,8 +262,6 @@ home section
 }
 
 
-
-
 /* ==========================================================================
 work section
 ========================================================================== */
@@ -460,9 +458,10 @@ resume section
     margin-bottom: -60px;
 }
 
-#resume ul  {
+#resume ul {
     font-size: 18px;
 }
+
 #resume ul li li {
     font-size: 14px;
 }
@@ -478,8 +477,7 @@ resume section
 .tg {
     border-collapse: collapse;
     border-spacing: 0;
-    border: none;
-    margin: 0px auto;
+    text-align: center;
 }
 
 .tg td {
@@ -494,7 +492,8 @@ resume section
 }
 
 .tg th {
-    font-family: Arial, sans-serif;
+    font-family: "Raleway", serif;
+    font-weight: bold;
     font-size: 14px;
     font-weight: normal;
     padding: 10px 20px;
@@ -504,83 +503,41 @@ resume section
     word-break: normal;
 }
 
-.tg .tg-1x2s {
-    background-color: #9b2323;
-    color: #343434;
-    text-align: center;
+.tg .tg-tiqg {
+    background-color: #00c6d7;
+    color: #00c6d7;
     vertical-align: top
 }
 
-.tg .tg-uqo3 {
-    background-color: #efefef;
-    text-align: center;
-    vertical-align: top
-}
-
-.tg .tg-nq1o {
-    background-color: #efefef;
-    color: #343434;
-    text-align: center;
-    vertical-align: top
-}
-
-.tg .tg-baqh {
-    text-align: center;
-    vertical-align: top
-}
-
-.tg .tg-9fg7 {
-    background-color: #9b2323;
-    color: #000000;
-    text-align: center;
-    vertical-align: top
-}
-
-.tg .tg-r31x {
-    color: #ffffff;
-    text-align: center;
-    vertical-align: top
-}
-
-.tg .tg-v8f3 {
-    background-color: #efefef;
-    color: #000000;
-    text-align: center;
-    vertical-align: top
-}
-
-.tg .tg-pp3w {
+.tg .tg-m8at {
     background-color: #343434;
-    color: #343434;
-    text-align: center;
     vertical-align: top
 }
 
-.tg .tg-85mn {
+.tg .tg-2pns {
+    background-color: #333333;
+    vertical-align: top
+}
+
+.tg .tg-3we0 {
+    background-color: #ffffff;
+    vertical-align: top
+}
+
+.tg .tg-ex43 {
+    background-color: #9b2323;
+    vertical-align: top
+}
+
+.tg .tg-yw4l {
+    vertical-align: top
+}
+
+.tg .tg-1lz2 {
     background-color: #00c6d7;
-    color: #656565;
-    text-align: center;
     vertical-align: top
 }
 
-.tg .tg-f8tx {
-    color: #000000;
-    text-align: center;
-    vertical-align: top
-}
-
-.tg .tg-lcro {
-    background-color: #00c6d7;
-    color: #000000;
-    text-align: center;
-    vertical-align: top
-}
-
-.tg .tg-vp1c {
-    background-color: #00c6d7;
-    text-align: center;
-    vertical-align: top
-}
 
 /* ==========================================================================
 contact section
@@ -592,9 +549,7 @@ contact section
     color: #ffffff;
 }
 
-.profile {
-
-}
+.profile {}
 
 .profilePicture {
     width: 60%;
@@ -603,6 +558,7 @@ contact section
     opacity: .7;
     align-content: center;
 }
+
 
 /*.profilePicture img {
     width: 100%;
@@ -735,12 +691,10 @@ footer p {
     color: #00c6d7;
 }
 
-
 @media screen and (min-width: 992px) {
     #resume .hide-mobile {
         width: 100%;
     }
-
 }
 
 @media screen and (min-width: 992px) {
@@ -750,33 +704,77 @@ footer p {
             width: 33.333%;
         }
     }
-
 }
 
-
 @media (max-width: 992px) {
-              #resume .hide-mobile {
+    #resume .hide-mobile {
         display: none;
     }
-
-   #resume .display-mobile {
+    #resume .display-mobile {
         display: table;
     }
-
-.tg  {border-collapse:collapse;border-spacing:0;border:none;margin:0px auto;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 20px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 20px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
-.tg .tg-2v04{color:#efefef;vertical-align:top}
-.tg .tg-ch1v{color:#efefef}
-.tg .tg-ckxx{background-color:#00c6d7}
-.tg .tg-yzt1{background-color:#efefef;vertical-align:top}
-.tg .tg-2pns{background-color:#333333;vertical-align:top}
-.tg .tg-bsv2{background-color:#efefef}
-.tg .tg-ilfa{background-color:#9b2323}
-.tg .tg-hv6p{background-color:#333333}
-.tg .tg-ex43{background-color:#9b2323;vertical-align:top}
-.tg .tg-1lz2{background-color:#00c6d7;vertical-align:top}
-.tg .tg-yw4l{vertical-align:top}
+    .tg {
+        border-collapse: collapse;
+        border-spacing: 0;
+        text-align: left;
+    }
+    .tg td {
+        font-family: "Raleway", serif;
+        font-weight: bold;
+        font-size: 14px;
+        padding: 10px 20px;
+        border-style: solid;
+        border-width: 0px;
+        overflow: hidden;
+        word-break: normal;
+    }
+    .tg th {
+        font-family: "Raleway", serif;
+        font-weight: bold;
+        font-size: 14px;
+        font-weight: normal;
+        padding: 10px 20px;
+        border-style: solid;
+        border-width: 0px;
+        overflow: hidden;
+        word-break: normal;
+    }
+    .tg .tg-ckxx {
+        background-color: #00c6d7
+    }
+    .tg .tg-cxkv {
+        background-color: #ffffff
+    }
+    .tg .tg-2pns {
+        background-color: #333333;
+        vertical-align: top
+    }
+    .tg .tg-ilfa {
+        background-color: #9b2323
+    }
+    .tg .tg-ym59 {
+        background-color: #333333;
+        color: #333333
+    }
+    .tg .tg-6pxt {
+        background-color: #00c6d7;
+        color: #00c6d7
+    }
+    .tg .tg-yw4l {
+        vertical-align: top
+    }
+    .tg .tg-ex43 {
+        background-color: #9b2323;
+        vertical-align: top
+    }
+    .tg .tg-1lz2 {
+        background-color: #00c6d7;
+        vertical-align: top
+    }
+    .tg .tg-3we0 {
+        background-color: #ffffff;
+        vertical-align: top
+    }
 }
 
 
@@ -815,5 +813,4 @@ media quires for mobile
         width: 100%;
         height: 100%;
     }
-
 }
