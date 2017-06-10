@@ -196,6 +196,7 @@ home section
     align-items: center;
     height: 100vh;
     text-align: center;
+    background-color: #2C2A2B !important;
 }
 
 #home h1 {
