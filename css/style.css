@@ -6,6 +6,7 @@ body {
 html,
 body {
     overflow-x: hidden;
+
 }
 
 h1,
@@ -708,6 +709,8 @@ footer p {
 }
 
 @media (max-width: 992px) {
+
+
     #resume .hide-mobile {
         display: none;
     }
@@ -784,6 +787,9 @@ media quires for mobile
 ========================================================================== */
 
 @media (max-width: 440px) {
+
+
+
     #home {
         padding-top: 320px;
         padding-bottom: 320px;
