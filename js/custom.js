@@ -83,8 +83,8 @@ $(function(){
   $(function(){
     jQuery(document).ready(function() {
     $('#home').backstretch([
-       "images/background1.png",
-       "images/background1alt.png",
+       "images/background1.jpg",
+       "images/background1alt.jpg",
         ],  {duration: 2000, fade: 750});
     });
   })
