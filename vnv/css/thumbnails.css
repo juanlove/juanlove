@@ -5,6 +5,33 @@
     background-color: rgba(0, 0, 0, 0.5)
 }
 
+/*VIBES N VENTURES*/
+
+/*Neil Hollywood by Episode*/
+
+#nh1 {
+    background-image: url("http://img.youtube.com/vi/Jcsh5b9SqZM/maxresdefault.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#nh2 {
+    background-image: url("../images/thumbnails/nh2.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#nh3 {
+    background-image: url("http://img.youtube.com/vi/JASeMtKgiYk/maxresdefault.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*vnv by episode*/
+
 #episode1 {
     background-image: url("http://img.youtube.com/vi/Kxhoicqj4ec/0.jpg") !important;
     background-repeat: no-repeat;
@@ -18,6 +45,45 @@
     background-size:cover;
     background-position: center;
 }
+
+#episode3 {
+    background-image: url("../images/thumbnails/vnvEp3.png") !important;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+/*vnv by title*/
+
+#vnv1 {
+    background-image: url("../images/thumbnails/vnv1.png") !important;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+#vnv2 {
+    background-image: url("http://img.youtube.com/vi/0cJD-d1jMrs/maxresdefault.jpg") !important;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+#vnv3 {
+    background-image: url("../images/thumbnails/vnv3.png") !important;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+#vnv4 {
+    background-image: url("../images/thumbnails/vnv.png") !important;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+/*Toddtucker Tuckertodd*/
 
 #tttt8 {
     background-image: url("http://img.youtube.com/vi/sBBUIjyIav0/hqdefault.jpg") !important;
@@ -75,6 +141,8 @@
     background-position: center;
 }
 
+/*Feel Good Stories*/
+
 #fgs1 {
     background-image: url("../images/thumbnails/feelGoodStoryOne.png") !important;
     background-repeat: no-repeat;
@@ -89,8 +157,77 @@
     background-position: center;
 }
 
+
+#fgs3 {
+    background-image: url("../images/thumbnails/br3.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#fgs4 {
+    background-image: url("../images/thumbnails/fgs4.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*Ymca*/
+
+#ymca1 {
+    background-image: url("../images/thumbnails/chf2.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#ymca2 {
+    background-image: url("http://img.youtube.com/vi/YHNNye27bw0/maxresdefault.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#ymca3 {
+    background-image: url("http://img.youtube.com/vi/yxSG42GrBtE/maxresdefault.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#ymca4 {
+    background-image: url("../images/thumbnails/ymcaBall3.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#ymca5 {
+    background-image: url("../images/thumbnails/ymcaBall4.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#ymca6 {
+    background-image: url("../images/thumbnails/ymcaBall5.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*Behind Reality*/
 #br1 {
     background-image: url("../images/thumbnails/behindReality1.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#br2 {
+    background-image: url("../images/thumbnails/br2.png") !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

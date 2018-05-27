@@ -115,8 +115,13 @@
         </div>
     </nav>
     <section class="first" id="video-landing">
+<<<<<<< HEAD
         <h1>Illumin Oceans</h1>
         <p id ="subtext">Who we do</p>
+=======
+        <h1>Oceans</h1>
+        <p id ="subtext">What we do</p>
+>>>>>>> b7233c098427eb73532c38cfdb583d76cdf57a39
         <video autoplay="autoplay" loop="loop" id="bgvid" width="100%;">
             <source src="http://taxify.co/wp-content/uploads/2014/06/file.mp4" type="video/mp4" /> </video>
     </section>
@@ -156,11 +161,19 @@
     <script>
             $(document).ready(function () {
             $(window).scroll(function () {
+<<<<<<< HEAD
                 if ($(this).scrollTop() < 800) {
                     //change yes to no
                     $('#subtext').html('What we do');
                 }
                 else if ($(this).scrollTop() < 1600) {
+=======
+                if ($(this).scrollTop() < 600) {
+                    //change yes to no
+                    $('#subtext').html('What we do');
+                }
+                else if ($(this).scrollTop() < 1200) {
+>>>>>>> b7233c098427eb73532c38cfdb583d76cdf57a39
                     //set h1 text to yes
                     $('#subtext').html('Who we are');
                 }
