@@ -11,9 +11,9 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- Google Analytics	-->
     <script>
-        (function (i, s, o, g, r, a, m) {
+        (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
+            i[r] = i[r] || function() {
                 (i[r].q = i[r].q || []).push(arguments)
             }, i[r].l = 1 * new Date();
             a = s.createElement(o), m = s.getElementsByTagName(o)[0];
@@ -26,15 +26,15 @@
     </script>
     <!-- Google Tag Manager -->
     <script>
-        (function (w, d, s, l, i) {
+        (function(w, d, s, l, i) {
             w[l] = w[l] || [];
             w[l].push({
-                'gtm.start': new Date().getTime()
-                , event: 'gtm.js'
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
             });
-            var f = d.getElementsByTagName(s)[0]
-                , j = d.createElement(s)
-                , dl = l != 'dataLayer' ? '&l=' + l : '';
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
             j.async = true;
             j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
@@ -74,10 +74,10 @@
          * as the event label. Setting the transport method to 'beacon' lets the hit be sent
          * using 'navigator.sendBeacon' in browser that support it.
          */
-        var trackOutboundLink = function (url) {
+        var trackOutboundLink = function(url) {
             ga('send', 'event', 'outbound', 'click', url, {
-                'transport': 'beacon'
-                , 'hitCallback': function () {
+                'transport': 'beacon',
+                'hitCallback': function() {
                     document.location = url;
                 }
             });
@@ -231,9 +231,25 @@
                         </ul>
                         <div class="iso-box-section wow fadeIn" data-wow-delay="0.9s">
                             <div class="iso-box-wrapper col4-iso-box">
+
+
+                                <div class="iso-box web logo col-lg-3 col-md-3 col-xs-4">
+                                    <a href="images/port/design-menuScreens.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-screenMenus.png" alt="portfolio img"></a>
+                                </div>
+
+                                <div class="iso-box print logo col-lg-3 col-md-3 col-xs-4">
+                                    <a href="images/port/design-jackiebeeshirts.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-jackiebeeshirts.png" alt="portfolio img"></a>
+                                </div>
+
+                                <div class="iso-box web logo col-lg-3 col-md-3 col-xs-4">
+                                    <a href="images/port/design-background.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-background.png" alt="portfolio img"></a>
+                                </div>
+
                                 <div class="iso-box print logo col-lg-3 col-md-3 col-xs-4">
                                     <a href="images/port/design-dance.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-dance.png" alt="portfolio img"></a>
                                 </div>
+
+
                                 <div class="iso-box print col-lg-3 col-md-3 col-xs-4">
                                     <a href="images/port/design-msctrifold.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-trifold.png" alt="portfolio img"></a>
                                 </div>
@@ -259,13 +275,29 @@
                                     <a href="images/port/design-welcome.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-mscwelcome.png" alt="portfolio img"></a>
                                 </div>
                                 <div class="iso-box web col-lg-3 col-md-3 col-sm-6">
-                                    <a href="https://www.mtsierra.edu" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-mtsierrasite.png" alt="portfolio img"></a><a href="https://www.mtsierra.edu"><h4>mtsierra.edu</h4></a> </div>
+                                    <a href="https://www.mtsierra.edu" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-mtsierrasite.png" alt="portfolio img"></a>
+                                    <a href="https://www.mtsierra.edu">
+                                        <h4>mtsierra.edu</h4>
+                                    </a>
+                                </div>
                                 <div class="iso-box web col-lg-3 col-md-3 col-sm-6">
-                                    <a href="http://fundwildnature.org/" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-fundwildnaturesite.png" alt="portfolio img"></a><a href="http://fundwildnature.org/"><h4>fundwildnature.org</h4></a> </div>
+                                    <a href="http://fundwildnature.org/" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-fundwildnaturesite.png" alt="portfolio img"></a>
+                                    <a href="http://fundwildnature.org/">
+                                        <h4>fundwildnature.org</h4>
+                                    </a>
+                                </div>
                                 <div class="iso-box web col-lg-3 col-md-3 col-sm-6">
-                                    <a href="http://www.galapagosconservationaction.org/" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-gcasite.png" alt="portfolio img"></a><a href="http://www.galapagosconservationaction.org/"><h4>galapagosconservationaction.org</h4></a> </div>
+                                    <a href="http://www.galapagosconservationaction.org/" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-gcasite.png" alt="portfolio img"></a>
+                                    <a href="http://www.galapagosconservationaction.org/">
+                                        <h4>galapagosconservationaction.org</h4>
+                                    </a>
+                                </div>
                                 <div class="iso-box web col-lg-3 col-md-3 col-sm-6">
-                                    <a href="https://www.pvpzonelv.com" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-pvpzonesite.png" alt="portfolio img"></a><a href="https://www.pvpzonelv.com"><h4>pvpzonelv.com</h4></a> </div>
+                                    <a href="https://www.pvpzonelv.com" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-pvpzonesite.png" alt="portfolio img"></a>
+                                    <a href="https://www.pvpzonelv.com">
+                                        <h4>pvpzonelv.com</h4>
+                                    </a>
+                                </div>
                                 <div class="iso-box print col-lg-3 col-md-3 col-xs-4">
                                     <a href="images/port/design-pvpzonechairs.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-pvpzonechairs.png" alt="portfolio img"></a>
                                 </div>
@@ -278,22 +310,47 @@
                                 <div class="iso-box print col-lg-3 col-md-3 col-xs-4">
                                     <a href="images/port/design-mscbears.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-mscbears.png" alt="portfolio img"></a>
                                 </div>
+                                <div class="iso-box print logo col-lg-3 col-md-3 col-xs-4">
+                                    <a href="images/port/styleSheets-03.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnails-03.jpg" alt="portfolio img"></a>
+                                </div>
                                 <div class="iso-box print col-lg-3 col-md-3 col-xs-4">
                                     <a href="images/port/design-jbmenu.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-jbmenu.png" alt="portfolio img"></a>
                                 </div>
                                 <div class="iso-box web col-lg-3 col-md-3 col-sm-6">
-                                    <a href="https://jackiebeelv.com/" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-jackiebeesite.png" alt="portfolio img"></a><a href="https://jackiebeelv.com/"><h4>jackiebeelv.com</h4></a> </div>
+                                    <a href="https://jackiebeelv.com/" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-jackiebeesite.png" alt="portfolio img"></a>
+                                    <a href="https://jackiebeelv.com/">
+                                        <h4>jackiebeelv.com</h4>
+                                    </a>
+                                </div>
                                 <div class="iso-box web col-lg-3 col-md-3 col-sm-6">
-                                    <a href="https://juanlove.github.io/string/" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-stringsite.png" alt="portfolio img"></a><a href="https://juanlove.github.io/string/"><h4>String</h4></a> </div>
+                                    <a href="https://juanlove.github.io/string/" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-stringsite.png" alt="portfolio img"></a>
+                                    <a href="https://juanlove.github.io/string/">
+                                        <h4>String</h4>
+                                    </a>
+                                </div>
                                 <div class="iso-box print logo col-lg-3 col-md-3 col-xs-4">
                                     <a href="images/port/design-stringlogo.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-stringlogo.png" alt="portfolio img"></a>
                                 </div>
+
+
                                 <div class="iso-box print col-lg-3 col-md-3 col-xs-4">
                                     <a href="images/port/design-drawwithme.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-drawwithme.png" alt="portfolio img"></a>
                                 </div>
+
+                                <div class="iso-box print col-lg-3 col-md-3 col-xs-4">
+                                    <a href="images/port/design-speaker.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-speaker.png" alt="portfolio img"></a>
+                                </div>
+
+
                                 <div class="iso-box print logo col-lg-3 col-md-3 col-xs-4">
                                     <a href="images/port/design-daniellogo.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-daniellogo.png" alt="portfolio img"></a>
                                 </div>
+
+                                <div class="iso-box print logo col-lg-3 col-md-3 col-xs-4">
+                                    <a href="images/port/design-theBakery.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-theBakery.png" alt="portfolio img"></a>
+                                </div>
+
+
                                 <div class="iso-box print logo col-lg-3 col-md-3 col-xs-4">
                                     <a href="images/port/design-bah.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-bah.png" alt="portfolio img"></a>
                                 </div>
@@ -308,12 +365,6 @@
                                 </div>
                                 <div class="iso-box print logo col-lg-3 col-md-3 col-xs-4">
                                     <a href="images/port/styleSheets-02.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnails-02.jpg" alt="portfolio img"></a>
-                                </div>
-                                <div class="iso-box print logo col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/styleSheets-03.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnails-03.jpg" alt="portfolio img"></a>
-                                </div>
-                                <div class="iso-box print col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/design-mscbears.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-mscbears.png" alt="portfolio img"></a>
                                 </div>
                                 <div class="iso-box print col-lg-3 col-md-3 col-xs-4">
                                     <a href="images/port/styleSheets-05.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnails-05.jpg" alt="portfolio img"></a>
@@ -331,7 +382,11 @@
                                     <a href="images/port/styleSheets-15.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnails-15.jpg" alt="portfolio img"></a>
                                 </div>
                                 <div class="iso-box web col-lg-3 col-md-3 col-sm-6">
-                                    <a href="https://www.monroviamusicfest.com" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnails-22.jpg" alt="portfolio img"></a><a href="https://www.monroviamusicfest.com"><h4>monroviamusicfest.com</h4></a> </div>
+                                    <a href="https://www.monroviamusicfest.com" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnails-22.jpg" alt="portfolio img"></a>
+                                    <a href="https://www.monroviamusicfest.com">
+                                        <h4>monroviamusicfest.com</h4>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -346,7 +401,8 @@
                     <div class="section-title"> <strong>IV</strong>
                         <h1 class="heading bold">Resume</h1>
                         <hr>
-                        <h6><a href="assests/resume2018.pdf" target="_blank" >DOWNLOAD</a></h6> </div>
+                        <h6><a href="assests/resume2018.pdf" target="_blank">DOWNLOAD</a></h6>
+                    </div>
                 </div>
                 <div class="col-md-12 col-sm-12">
                     <h3>Education</h3>
@@ -578,8 +634,8 @@
     <script src="js/smoothscroll.js"></script>
     <script src="js/custom.js"></script>
     <script>
-        $(document).ready(function () {
-            $('a[rel="relativeanchor"]').click(function () {
+        $(document).ready(function() {
+            $('a[rel="relativeanchor"]').click(function() {
                 $('html, body').animate({
                     scrollTop: $($.attr(this, 'href')).offset().top
                 }, 500);
