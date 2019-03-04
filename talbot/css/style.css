@@ -13,6 +13,11 @@
     height: 70vh;
 }
 
+.demo-gallery > ul > li > a {
+    width: 100% !important;
+}
+
+
 .mainVideo {
     width: 80% !important;
     height: auto !important;
