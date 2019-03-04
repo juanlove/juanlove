@@ -10,11 +10,21 @@
 #lightgallery {
     background-color: rgba(0,0,0,0.5);
     padding: 5vh;
-    height: 70vh;
+    height: auto;
 }
 
 .demo-gallery > ul > li > a {
     width: 100% !important;
+}
+
+
+.demo-gallery > ul > li  {
+    margin-bottom: 0px !important;
+    margin-right: 0px !important;
+}
+
+.caption h4 {
+    padding-top: 15px;
 }
 
 
