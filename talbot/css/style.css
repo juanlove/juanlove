@@ -28,8 +28,18 @@
 
 .caption h4 {
     padding-top: 15px;
+    color: grey !important;
 }
 
+
+.caption h4, p {
+    text-align: left !important;
+}
+
+.lg-sub-html h4 {
+    text-align: left;
+    color: grey;
+}
 
 .mainVideo {
     width: 90% !important;
@@ -157,7 +167,7 @@ nav ul li a:hover {
 }
 
 nav ul li img {
-    height: 105px;
+    height: 135px;
     width: auto;
     background: none;
 }
