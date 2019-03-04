@@ -8,9 +8,6 @@
 }
 
 
-
-
-
 /* General Styles
 ========================================================================== */
 
@@ -132,7 +129,7 @@ nav ul li a:hover {
 }
 
 nav ul li img {
-    height: 130px;
+    height: 100px;
     width: auto;
     background: none;
 }
