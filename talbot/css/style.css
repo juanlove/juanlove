@@ -192,8 +192,7 @@ nav {
 }
 
 nav ul {
-    min-height: 15vh;
-    height: 120px;
+    height: 145px;
     margin: 0px auto;
     width: 100%;
     text-align: center;
