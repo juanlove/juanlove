@@ -77,12 +77,15 @@
 }
 
 .lg-sub-html h4:nth-child(2) {
-    text-align: left;
-    color: grey;
-    letter-spacing: normal;
+
+    font-size: 18px;
+}
+
+.lg-sub-html h4:nth-child(3) {
+
     font-size: 16px;
-    margin-bottom: 10px;
-    letter-spacing: 2px !important;
+    font-weight: 500;
+
 }
 
 .lg-sub-html p {
