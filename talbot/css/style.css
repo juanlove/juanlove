@@ -1,4 +1,5 @@
 /*TESTING*/
+
 .lg-thumb.lg-group {
     display: none;
 }
@@ -8,7 +9,7 @@
 }
 
 #lightgallery {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     padding-top: 5vh;
     padding-left: 5px;
     padding-right: 5px;
@@ -20,8 +21,7 @@
     width: 100% !important;
 }
 
-
-.demo-gallery > ul > li  {
+.demo-gallery > ul > li {
     margin-bottom: 0px !important;
     margin-right: 0px !important;
 }
@@ -38,14 +38,11 @@
     font-weight: 700 !important;
 }
 
-
 .caption p {
     text-align: left !important;
     letter-spacing: 5px !important;
     font-weight: 700 !important;
 }
-
-
 
 .lg-sub-html {
     display: block;
@@ -62,7 +59,8 @@
     text-align: left;
     color: grey;
 }
-.lg-sub-html  p {
+
+.lg-sub-html p {
     text-align: left;
     color: grey;
 }
@@ -77,12 +75,10 @@
 }
 
 .lg-sub-html h4:nth-child(2) {
-
     font-size: 18px;
 }
 
 .lg-sub-html h4:nth-child(3) {
-
     font-size: 16px;
     font-weight: 500;
 
@@ -107,8 +103,6 @@
     padding: 0px;
     margin: 0px;
 }
-
-
 
 /* General Styles
 ========================================================================== */
@@ -416,7 +410,6 @@ label {
 /* Main Sections
 ========================================================================== */
 
-
 /* Top Section */
 
 .first {
@@ -594,7 +587,7 @@ margin: 0px auto;
 
 .demo-gallery > ul {
     margin-bottom: 0;
-/*    padding-left: 15px;*/
+    /*    padding-left: 15px;*/
     width: 1100px;
     text-align: center;
     margin: 0px auto;
