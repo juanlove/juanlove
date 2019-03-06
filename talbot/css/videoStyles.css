@@ -146,4 +146,9 @@
     margin: 0px;
     vertical-align: top;
 }
+
+    .demo-gallery .video .demo-gallery-poster img {
+        left: 18%;
+        top: 35%;
+    }
 }

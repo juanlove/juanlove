@@ -893,33 +893,32 @@ label {
         height: 20vh !important;
     }
 
-    .divider {
-        height: 40vh !important;
+    .third .divider {
+        height: 150px !important;
     }
 
-    .divider {
-        height: 40vh !important;
+   .fourth .divider {
+        height: 150px !important;
     }
 
-    .divider {
-        height: 40vh !important;
-    }
-
-    .divider {
+   .five .divider {
         height: 40vh !important;
     }
 
     .first {
         background-image: url(../assets/imgs/firstMobile.jpg);
+        background-size: cover;
     }
 
     .third {
         background-image: url(../assets/imgs/secondMobile.jpg);
+        background-size: cover;
     }
 
 
     .fifth {
         background-image: url(../assets/imgs/thirdMobile.jpg);
+        background-size: cover;
     }
 
     .fifth h3 {
