@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en" >
-
 <head>
     <meta charset="UTF-8">
     <title>Talbot Films</title>
@@ -11,294 +10,184 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.11/css/lightgallery.min.css'>
     <link rel='stylesheet' href='https://unpkg.com/aos@2.3.1/dist/aos.css'>
     <link rel='stylesheet' href='css/style.css'>
+    <link rel='stylesheet' href='css/videoStyles.css'>
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway'>
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i'>
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy'>
-
-    <style>
-
-
-
-
-
-    </style>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-
 </head>
 
 <body>
 
-<div id="myNav" class="overlayNav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
-        <div class="outer">
-          <div class="inner">
-            <label>Back</label>
-          </div>
+    <div id="myNav" class="overlayNav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+            <div class="outer">
+                <div class="inner">
+                    <label>Back</label>
+                </div>
+            </div>
+        </a>
+        <div class="overlayNav-content">
+            <a onclick="closeNav()" href="#story">About</a>
+            <a onclick="closeNav()" href="#work">Work</a>
+            <a onclick="closeNav()" href="#bio">Bio</a>
+            <a onclick="closeNav()" href="#contact">Contact</a>
         </div>
-    </a>
-    <div class="overlayNav-content">
-    <a onclick="closeNav()" href="#story">About</a>
-    <a onclick="closeNav()" href="#work">Work</a>
-    <a onclick="closeNav()" href="#bio">Bio</a>
-    <a onclick="closeNav()" href="#contact">Contact</a>
-    </div>
-</div>
-
-<nav class="fill">
-<ul id="top-menu">
-    <li class="mainNavItems"><a href="#story">
-about</a></li><!--
-    --><li class="mainNavItems"><a href="#work">
-work</a></li><!--
-    --><a href=""><li class="mobileLogo"><img src="assets/imgs/navLogo.png"></li></a><!--
-    --><li class="mainNavItems"><a href="#bio">
-bio</a></li><!--
-    --><li class="mainNavItems"><a href="#contact">
-contact</a></li><!--
-    --><li class="menuIcon" onclick="openNav()"><span class="icon icon-bars"></span><span class="icon icon-bars overlay"></span></li>
-</ul>
-<!--    <div class="gradientBottom"></div>-->
-</nav>
-
-<div class="mainContainer">
-
-  <div id="veryTop" class="behindNavTop"></div>
-
-  <div class="first">
-
-    <div class="divider">
     </div>
 
-    <div class="row">
-     <div class="col-lg-2 col-xs-12"></div>
-      <div class="col-lg-8 col-xs-12">
-       <div class="row blackBox top">
+    <nav>
+        <ul id="top-menu">
+        <li class="mainNavItems"><a href="#story">
+        about</a></li><!--
+        --><li class="mainNavItems"><a href="#work">
+        work</a></li><!--
+        --><a href=""><li class="mobileLogo"><img src="assets/imgs/navLogo.png"></li></a><!--
+        --><li class="mainNavItems"><a href="#bio">
+        bio</a></li><!--
+        --><li class="mainNavItems"><a href="#contact">
+        contact</a></li><!--
+        --><li class="menuIcon" onclick="openNav()"><span class="icon icon-bars"></span><span class="icon icon-bars overlay"></span></li>
+        </ul>
+    </nav>
 
-       <div class="col-lg-4">
-           <img src="assets/imgs/immerse.png" width="90%" height="auto" />
-       </div>
+    <div class="mainContainer">
+        <div class="first">
+            <div class="divider"></div>
+            <div class="row">
+                <div class="col-sm-2 col-xs-12"></div>
+                <div class="col-sm-8 col-xs-12">
+                    <div class="row blackBox top">
 
-       <div class="col-lg-4">
-           <img src="assets/imgs/connect.png" width="90%" height="auto" />
-       </div>
+                        <div class="col-lg-4">
+                            <img src="assets/imgs/immerse.png" width="90%" height="auto" />
+                        </div>
 
-       <div class="col-lg-4">
-           <img src="assets/imgs/entertain.png" width="90%" height="auto" />
-       </div>
+                        <div class="col-lg-4">
+                            <img src="assets/imgs/connect.png" width="90%" height="auto" />
+                        </div>
 
-       </div>
+                        <div class="col-lg-4">
+                            <img src="assets/imgs/entertain.png" width="90%" height="auto" />
+                        </div>
 
-      </div>
-      <div class="col-lg-2 col-xs-12"></div>
-    </div>
+                    </div>
 
-  </div>
-
-  <div class="gradientTop"></div>
-  <div id="story" class="second">
-    <div class="divider"></div>
-    <div class="row fixedWidth">
-      <div class="col-lg-1 col-xs-12">
-        <hr>
-      </div>
-      <div class="col-lg-4 col-xs-12">
-        <div class="videoBox" data-aos="fade-up" data-aos-duration="3000">
-          <video no-controls autoplay loop muted poster="" class="aboutVideo">
-            <source type="video/mp4" src="assets/video/aboutVideo.mp4" />
-          </video>
+                </div>
+                <div class="col-sm-2 col-xs-12"></div>
+            </div>
         </div>
-      </div>
-      <div class="col-lg-6 col-xs-12 aboutDescript">
-        <!--         <h2 class="sectionHeader" data-aos="fade-right" data-aos-duration="3000" >TALBOT FILMS</h2> -->
-        <img data-aos="fade-right" data-aos-duration="3000" src="assets/imgs/talbotFilms4.png" />
-        <p data-aos="fade-right" data-aos-duration="3000">Bob Talbot began sharing his passion for the sea at the age of fourteen. Inspired by his childhood hero Jacques Cousteau, he merged sight and sound with nothing but a slide projector and record player.</p>
-        <p data-aos="fade-right" data-aos-duration="3000">Today Talbot Films continues to connect the public to the natural world through select, highly immersive special venue media and films.</p>
-        <p data-aos="fade-right" data-aos-duration="3000">Each of our productions is a unique story-based creation, crafted through groundbreaking cinematography, CGI, sound design and state-of-the-art presentation technologies.</p>
-        <p data-aos="fade-right" data-aos-duration="3000">Our clients include: BBC, IMAX, Simex Iwerks, California Academy of Sciences, Smithsonian Instituion, California Science Center, The National Aquarium, NOAA and National Marine Sanctuaries.</p>
-      </div>
-      <div class="col-lg-1 col-xs-12">
-        <hr>
-      </div>
-    </div>
-  </div>
-  <div class="gradientBottom"></div>
 
-  <div id="work" class="third">
-
-    <div class="divider">
-    </div>
-
-    <div class="demo-gallery">
-      <ul id="lightgallery">
-
-          <li class="video mainVideo" data-sub-html="<h4>TALBOT FILMS</h4><h4>COMPILATION</h4><h4>TRT: 3:27 </h4><p>Bob Talbot</p><p>Director</p><p>Director of Photography</p>" data-src="https://vimeo.com/320992340" data-poster="assets/imgs/animatedThumb/one.gif">
-          <a href="" data-sub-html=".caption">
-            <img class="img-responsive" src="assets/imgs/animatedThumb/one.gif"  >
-            <div class="caption">
-              <h4>TALBOT FILMS</h4>
-              <p>COMPILATION</p>
+        <div class="gradientTop"></div>
+        <div id="story" class="second">
+            <div class="divider"></div>
+            <div class="row fixedWidth">
+                <div class="col-lg-1 col-xs-12"></div>
+                <div class="col-lg-4 col-xs-12">
+                    <div class="videoBox" data-aos="fade-up" data-aos-duration="3000">
+                        <video no-controls autoplay loop muted poster="" class="aboutVideo">
+                            <source type="video/mp4" src="assets/video/aboutVideo.mp4" />
+                        </video>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xs-12 aboutDescript">
+                    <img data-aos="fade-right" data-aos-duration="3000" src="assets/imgs/talbotFilms4.png" />
+                    <p data-aos="fade-right" data-aos-duration="3000">Bob Talbot began sharing his passion for the sea at the age of fourteen. Inspired by his childhood hero Jacques Cousteau, he merged sight and sound with nothing but a slide projector and record player.</p>
+                    <p data-aos="fade-right" data-aos-duration="3000">Today Talbot Films continues to connect the public to the natural world through select, highly immersive special venue media and films.</p>
+                    <p data-aos="fade-right" data-aos-duration="3000">Each of our productions is a unique story-based creation, crafted through groundbreaking cinematography, CGI, sound design and state-of-the-art presentation technologies.</p>
+                    <p data-aos="fade-right" data-aos-duration="3000">Our clients include: BBC, IMAX, Simex Iwerks, California Academy of Sciences, Smithsonian Instituion, California Science Center, The National Aquarium, NOAA and National Marine Sanctuaries.</p>
+                </div>
+                <div class="col-lg-1 col-xs-12"></div>
             </div>
-            <div class="demo-gallery-poster">
-              <img src="assets/imgs/play-button.png" >
-            </div>
-          </a>
-        </li>
-
-<!--
-
-        <li class="video" data-sub-html="<h4>NOAA ONMS</h4><p>Onebreath -  Monterey Bay Experience (Teaser)</p>" data-src="https://www.youtube.com/watch?v=Pq9yPrLWMyU" data-poster="imgs/animatedThumb/one.gif">
-          <a href="">
-            <img class="img-responsive" src="assets/imgs/animatedThumb/one.gif">
-            <div class="caption">
-              <h4>TALBOT</h4>
-              <p>SD COMPILATION</p>
-            </div>
-            <div class="demo-gallery-poster">
-              <img src="assets/imgs/play-button.png">
-            </div>
-          </a>
-        </li>
-
--->
-
-<!--
-
-        <li class="video" data-sub-html="<h4>OCEANMEN - EXTREME DIVE</h4><p>Stargate</p>" data-src="https://vimeo.com/1084537" data-poster="assets/imgs/animatedThumb/one.gif">
-          <a href=""> <img class="img-responsive" src="assets/imgs/animatedThumb/one.gif">
-            <div class="caption">
-              <h4>TALBOT</h4>
-              <p>SD COMPILATION</p>
-            </div>
-            <div class="demo-gallery-poster">
-              <img src="assets/imgs/play-button.png">
-            </div>
-          </a>
-        </li>
-
--->
-
-
-<!--
-
-        <li class="video" data-sub-html="<h4>OCEANMEN - EXTREME DIVE</h4><p>Generations</p>" data-src="https://vimeo.com/35451452" data-poster="assets/imgs/animatedThumb/one.gif">
-          <a href=""> <img class="img-responsive" src="assets/imgs/animatedThumb/one.gif">
-            <div class="caption">
-              <h4>TALBOT</h4>
-              <p>SD COMPILATION</p>
-            </div>
-            <div class="demo-gallery-poster">
-              <img src="assets/imgs/play-button.png">
-            </div>
-          </a>
-        </li>
-
--->
-
-<!--
-
-        <li class="video" data-sub-html="<h4>OCEANMEN - EXTREME DIVE</h4><p>Training</p>" data-src="https://vimeo.com/35451452" data-poster="assets/imgs/animatedThumb/one.gif">
-          <a href=""> <img class="img-responsive" src="assets/imgs/animatedThumb/one.gif">
-            <div class="caption">
-              <h4>TALBOT</h4>
-              <p>SD COMPILATION</p>
-            </div>
-            <div class="demo-gallery-poster">
-              <img src="assets/imgs/play-button.png">
-            </div>
-          </a>
-        </li>
--->
-<!--
-
-        <li class="video" data-sub-html="<h4>OCEANMEN - EXTREME DIVE</h4><p>Pipin's Record</p>" data-src="https://vimeo.com/35451452" data-poster="assets/imgs/animatedThumb/one.gif">
-          <a href=""> <img class="img-responsive" src="assets/imgs/animatedThumb/one.gif">
-            <div class="caption">
-              <h4>TALBOT</h4>
-              <p>SD COMPILATION</p>
-            </div>
-            <div class="demo-gallery-poster">
-              <img src="assets/imgs/play-button.png">
-            </div>
-          </a>
-        </li>
--->
-
-      </ul>
-
-    </div>
-
-  </div>
-
-  <div class="gradientTop"></div>
-  <div id="bio" class="fourth">
-    <div class="divider"></div>
-    <div class="row fixedWidth noPads">
-      <div class="col-xs-12 col-lg-2"></div>
-      <div class="col-xs-12 col-lg-4 relativeBox">
-        <div class="gradientBottom imageGradientOne"></div>
-        <div class="imageBackground absoluteBox"></div>
-        <div class="gradientTop imageGradientTwo"></div>
-      </div>
-      <div class="col-xs-12 col-lg-4">
-
-          <p class=" " data-aos="fade-up" data-aos-duration="3000">Bob Talbot is an internationally renowned marine photographer, award winning filmmaker, and dedicated environmentalist. Whether he is consulting for Ang Lee on the motion picture LIFE of PI or battling whalers in court for Sea Shepherd Conservation Society, Talbot uses an eclectic range of skills to share the beauty of the sea and to protect it.</p>
-
-          <p class=" " data-aos="fade-up" data-aos-duration="3000">Bob was drawn to the sea as a child. He got his first glimpse beneath the surface when he was eight years old and began diving when he was thirteen. A year later he was given a Nikonos underwater camera as a Christmas gift and his creative fuse was lit.</p>
-
-          <p class=" " data-aos="fade-up" data-aos-duration="3000">His iconic photographs were first published as fine art lithographs when he was in his early twenties and soon became the best selling line of marine artwork in the world. His images have also appeared in a wide range of publications from Time magazine to National Geographic.</p>
-
-          <p class=" " data-aos="fade-up" data-aos-duration="3000">At the age of nineteen Bob began shooting motion picture film with a wind-up Bolex 16mm camera. Since then his motion picture work has been featured in television productions that have taken him from Antarctica with his childhood hero Jacques Cousteau, to the Arctic seal hunting grounds with Paul Watson —from the caverns of Grand Cayman with David Blaine to his beloved Monterey Bay for the BBC/PBS production of BIG BLUE LIVE.</p>
-
-          <p class=" " data-aos="fade-up" data-aos-duration="3000">Talbot’s feature film credits include FREE WILLY, FLIPPER, INTO THE BLUE and DOLPHIN TALE 2. He directed and photographed the award-winning IMAX film OCEANMEN – EXTREME DIVE and acted as a director and cinematographer for sequences in the Academy Award-nominated IMAX film, DOLPHINS. He recently completed work on his production BEING DOLPHIN 4D and is currently working on his feature documentary film FIN.</p>
-
-          <p class=" " data-aos="fade-up" data-aos-duration="3000">Talbot specializes in creating unique, highly immersive special venue media that speaks to his mission of connecting people to the sea. His clients include: IMAX, Simex Iwerks, California Academy of Sciences, Smithsonian Institution, California Science Center, The National Aquarium and National Marine Sanctuaries.</p>
-
-          <p class=" " data-aos="fade-up" data-aos-duration="3000">For his advocacy work Talbot has been presented with The Environmental Hero Award by Vice President Al Gore, the prestigious SeaKeeper Award by HSH</p>
-
-      </div>
-      <div class="col-xs-12 col-lg-2"></div>
-    </div>
-    <div class="divider"></div>
-  </div>
-  <div class="gradientBottom"></div>
-
-  <div id="contact" class="fifth">
-    <div class="divider"></div>
-    <div class="row">
-        <div class="col-lg-3"></div>
-        <div class="col-lg-6" style="background-color: rgba(0,0,0,0.5); padding: 25px; " >
-        <h3><a style="color: white !important; line-height: 32px; font-weight: normal !important;" href="mailto: sea@talbotfilms.com">SEA@TALBOTFILMS.COM</a></h3>
-        <br>
-        <h3><a style="color: white !important; font-weight: normal !important; text-decoration: none !important; font-family: 'Arial', serif !important;" href="tel:+1-831-648-9578">831 648 9578</a></h3>
         </div>
-        <div class="col-lg-3"></div>
-    </div>
-  </div>
+        <div class="gradientBottom"></div>
 
-  <video no-controls autoplay loop muted poster="" class="videoOne">
+        <div id="work" class="third">
+            <div class="divider"></div>
+            <div class="demo-gallery">
+                <ul id="lightgallery">
+                    <li class="video mainVideo" data-sub-html="<h4>TALBOT FILMS</h4><h4>TRT: <span>3:27</span> </h4><p>Bob Talbot</p><p>Director</p><p>Director of Photography</p>" data-src="https://vimeo.com/320992340" data-poster="assets/imgs/animatedThumb/one.gif">
+                        <a href="" data-sub-html=".caption">
+                            <img class="img-responsive" src="assets/imgs/animatedThumb/two.gif"  >
+                            <div class="caption">
+                            </div>
+                            <div class="demo-gallery-poster">
+                                <img src="assets/imgs/play-button.png" >
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="gradientTop"></div>
+        <div id="bio" class="fourth">
+            <div class="divider"></div>
+            <div class="row fixedWidth noPads">
+                <div class="col-xs-12 col-lg-2"></div>
+                <div class="col-xs-12 col-lg-4 relativeBox">
+                    <div class="gradientBottom imageGradientOne"></div>
+                    <div class="imageBackground absoluteBox"></div>
+                    <div class="gradientTop imageGradientTwo"></div>
+                </div>
+                <div class="col-xs-12 col-lg-4">
+
+                    <p class=" " data-aos="fade-up" data-aos-duration="3000">Bob Talbot is an internationally renowned marine photographer, award winning filmmaker, and dedicated environmentalist. Whether he is consulting for Ang Lee on the motion picture LIFE of PI or battling whalers in court for Sea Shepherd Conservation Society, Talbot uses an eclectic range of skills to share the beauty of the sea and to protect it.</p>
+
+                    <p class=" " data-aos="fade-up" data-aos-duration="3000">Bob was drawn to the sea as a child. He got his first glimpse beneath the surface when he was eight years old and began diving when he was thirteen. A year later he was given a Nikonos underwater camera as a Christmas gift and his creative fuse was lit.</p>
+
+                    <p class=" " data-aos="fade-up" data-aos-duration="3000">His iconic photographs were first published as fine art lithographs when he was in his early twenties and soon became the best selling line of marine artwork in the world. His images have also appeared in a wide range of publications from Time magazine to National Geographic.</p>
+
+                    <p class=" " data-aos="fade-up" data-aos-duration="3000">At the age of nineteen Bob began shooting motion picture film with a wind-up Bolex 16mm camera. Since then his motion picture work has been featured in television productions that have taken him from Antarctica with his childhood hero Jacques Cousteau, to the Arctic seal hunting grounds with Paul Watson —from the caverns of Grand Cayman with David Blaine to his beloved Monterey Bay for the BBC/PBS production of BIG BLUE LIVE.</p>
+
+                    <p class=" " data-aos="fade-up" data-aos-duration="3000">Talbot’s feature film credits include FREE WILLY, FLIPPER, INTO THE BLUE and DOLPHIN TALE 2. He directed and photographed the award-winning IMAX film OCEANMEN – EXTREME DIVE and acted as a director and cinematographer for sequences in the Academy Award-nominated IMAX film, DOLPHINS. He recently completed work on his production BEING DOLPHIN 4D and is currently working on his feature documentary film FIN.</p>
+
+                    <p class=" " data-aos="fade-up" data-aos-duration="3000">Talbot specializes in creating unique, highly immersive special venue media that speaks to his mission of connecting people to the sea. His clients include: IMAX, Simex Iwerks, California Academy of Sciences, Smithsonian Institution, California Science Center, The National Aquarium and National Marine Sanctuaries.</p>
+
+                    <p class=" " data-aos="fade-up" data-aos-duration="3000">For his advocacy work Talbot has been presented with The Environmental Hero Award by Vice President Al Gore, the prestigious SeaKeeper Award by HSH</p>
+
+                </div>
+                <div class="col-xs-12 col-lg-2"></div>
+            </div>
+            <div class="divider"></div>
+        </div>
+        <div class="gradientBottom"></div>
+
+        <div id="contact" class="fifth">
+            <div class="divider"></div>
+            <div class="row">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6" style="background-color: rgba(0,0,0,0.5); padding: 25px; ">
+                    <h3><a style="color: white !important; line-height: 32px; font-weight: normal !important;" href="mailto: sea@talbotfilms.com">SEA@TALBOTFILMS.COM</a></h3>
+                    <br>
+                    <h3><a style="color: white !important; font-weight: normal !important; text-decoration: none !important; font-family: 'Arial', serif !important;" href="tel:+1-831-648-9578">831 648 9578</a></h3>
+                </div>
+                <div class="col-lg-3"></div>
+            </div>
+        </div>
+
+        <video no-controls autoplay loop muted poster="" class="videoOne">
     <source type="video/mp4" src="assets/video/home.mp4" />
   </video>
 
-  <video no-controls autoplay loop muted poster="" class="videoTwo">
+        <video no-controls autoplay loop muted poster="" class="videoTwo">
     <source type="video/mp4" src="assets/video/blurry.mp4" />
   </video>
 
-  <video no-controls autoplay loop muted poster="" class="videoThree">
+        <video no-controls autoplay loop muted poster="" class="videoThree">
     <source type="video/mp4" src="assets/video/story.mp4" />
   </video>
 
-</div>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-<script src='https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.11/js/lightgallery-all.min.js'></script>
-<script src='https://f.vimeocdn.com/js/froogaloop2.min.js'></script>
-<script src='https://unpkg.com/aos@2.3.1/dist/aos.js'></script>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.11/js/lightgallery-all.min.js'></script>
+    <script src='https://f.vimeocdn.com/js/froogaloop2.min.js'></script>
+    <script src='https://unpkg.com/aos@2.3.1/dist/aos.js'></script>
 
-  
 
-    <script  src="js/index.js"></script>
+
+    <script src="js/index.js"></script>
 
 
 

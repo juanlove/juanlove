@@ -1,143 +1,8 @@
-/*TESTING*/
-
-.lg-thumb.lg-group {
-    display: none;
-}
-
-.lg-thumb-outer.lg-grab {
-    display: none;
-}
-
-#lightgallery {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding-top: 5vh;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    height: auto;
-}
-
-.demo-gallery > ul > li > a {
-    width: 100% !important;
-}
-
-.demo-gallery > ul > li {
-    margin-bottom: 0px !important;
-    margin-right: 0px !important;
-}
-
-.caption h4 {
-    padding-top: 15px;
-    color: grey !important;
-    margin-bottom: 0px;
-}
-
-.caption h4 {
-    text-align: left !important;
-    letter-spacing: 5px !important;
-    font-weight: 700 !important;
-}
-
-.caption p {
-    text-align: left !important;
-    letter-spacing: 5px !important;
-    font-weight: 700 !important;
-}
-
-.lg-sub-html {
-    display: block;
-    padding: 0px;
-    right: 0px;
-    width: 50%;
-    left: 50%;
-    margin-left: -25%;
-    text-align: left;
-    padding-bottom: 15px;
-}
-
-.lg-sub-html h4 {
-    text-align: left;
-    color: grey;
-}
-
-.lg-sub-html p {
-    text-align: left;
-    color: grey;
-}
-
-.lg-sub-html h4 {
-    text-align: left;
-    color: grey;
-    letter-spacing: normal;
-    font-size: 20px;
-    margin-bottom: 10px;
-    letter-spacing: 2px !important;
-}
-
-.lg-sub-html h4:nth-child(2) {
-    font-size: 18px;
-}
-
-.lg-sub-html h4:nth-child(3) {
-    font-size: 12px;
-    font-weight: 500;
-    margin-bottom: 25px;
-
-}
-
-.lg-sub-html p {
-    text-align: left;
-    color: grey;
-    letter-spacing: 0px !important;
-    margin-bottom: 0px;
-    margin: 0px;
-}
-
-.mainVideo {
-    width: 90% !important;
-    height: auto !important;
-}
-
-.lg-outer .lg-video-cont {
-    width: 50%;
-    max-width: 90% !important;
-    padding: 0px;
-    margin: 0px;
-}
-
 /* General Styles
 ========================================================================== */
 
 body {
-    background-color: black;
-}
-
-
-/* width */
-
-::-webkit-scrollbar {
-    width: 20px;
-}
-
-
-/* Track */
-
-::-webkit-scrollbar-track {
-    background-color: black;
-}
-
-
-/* Handle */
-
-::-webkit-scrollbar-thumb {
-    background: #2D2D2D;
-}
-
-
-/* Handle on hover */
-
-::-webkit-scrollbar-thumb:hover {
-    background: grey;
+    background-color: white;
 }
 
 h1,
@@ -151,7 +16,6 @@ h6 {
     font-weight: 800;
     letter-spacing: 15px;
     color: white;
-    font-variant: small-caps;
     text-align: center;
 }
 
@@ -162,8 +26,6 @@ hr {
 
 p {
     color: grey;
-    /*   padding: 0px; */
-    /*   margin: 0px; */
 }
 
 .noPads {
@@ -171,9 +33,27 @@ p {
     margin: 0px;
 }
 
-.behindNavTop {
-    width: 100%;
-    height: 115px;
+/* Scroll Bar
+========================================================================== */
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #2D2D2D;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: grey;
 }
 
 
@@ -411,17 +291,16 @@ label {
 ========================================================================== */
 
 /* Top Section */
-
 .first {
     position: relative;
-    height: 85vh;
+    height: 100vh;
     width: 100%;
     z-index: 10;
     text-align: center;
 }
 
 .first .divider {
-    height: 35vh;
+    height: 50vh;
     width: 100%;
 }
 
@@ -437,7 +316,6 @@ label {
 
 
 /* About Section */
-
 .second {
     position: relative;
     height: 100vh;
@@ -453,7 +331,6 @@ label {
 
 .second .fixedWidth {
     width: 1080px;
-    /*   background-color: yellow; */
     margin: 0px auto;
 }
 
@@ -476,7 +353,6 @@ label {
     position: relative;
     overflow: hidden;
     z-index: 49;
-    /*   background-color: yellow; */
 }
 
 .aboutVideo {
@@ -523,14 +399,6 @@ label {
     height: 225px;
 }
 
-
-/* 
-.fourth .fixedWidth {
-width: 1080px;
-margin: 0px auto;
-}
-*/
-
 .fourth .relativeBox {
     position: relative;
 }
@@ -558,7 +426,7 @@ margin: 0px auto;
 }
 
 .fourth .imageBackground {
-    background-image: url("../assets/imgs/photoBackground.jpg");
+    background-image: url("../assets/imgs/newBio.jpg");
     background-repeat: no-repeat;
     background-size: 30% auto;
     background-attachment: fixed;
@@ -946,4 +814,38 @@ margin: 0px auto;
         -webkit-transition: all 0s ease 0s;
         transition: all 0s ease 0s;
     }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .first, .second, .third, .fourth, .fifth {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .aboutScript img {
+        width: 100% !important;
+    }
+
+    .gradientTop, .gradientBottom, .videoOne, .videoTwo, .videoThree {
+        display: none !important;
+    }
+
+    .first {
+        background-image: url(../assets/imgs/firstMobile.jpg);
+    }
+
+    .third {
+        background-image: url(../assets/imgs/secondMobile.jpg);
+    }
+
+    .fifth {
+        background-image: url(../assets/imgs/thirdMobile.jpg);
+    }
+
+    .fifth h3 {
+    font-size: 12px;
+    letter-spacing: 10px;
+}
+
 }

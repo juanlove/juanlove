@@ -1,0 +1,125 @@
+.lg-thumb.lg-group {
+    display: none;
+}
+
+.lg-thumb-outer.lg-grab {
+    display: none;
+}
+
+#lightgallery {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+}
+
+.demo-gallery > ul {
+    width: 1000px;
+}
+
+.demo-gallery > ul > li > a {
+    width: 100% !important;
+}
+
+.demo-gallery > ul > li {
+    margin-bottom: 0px !important;
+    margin-right: 0px !important;
+}
+
+.caption h4 {
+    padding-top: 15px;
+    color: grey !important;
+    margin-bottom: 0px;
+}
+
+.caption h4 {
+    text-align: left !important;
+    letter-spacing: 5px !important;
+    font-weight: 700 !important;
+}
+
+.caption p {
+    text-align: left !important;
+    letter-spacing: 5px !important;
+    font-weight: 700 !important;
+}
+
+.lg-sub-html {
+    display: block;
+    margin: 0px;
+    width: 800px;
+    position: absolute;
+    top: 530px;
+    left: 50%;
+    margin-left: -400px;
+    padding: 0px
+}
+
+.lg-sub-html h4 {
+    text-align: left;
+    color: #474747;
+}
+
+.lg-sub-html p {
+    text-align: left;
+    color: #474747;
+}
+
+.lg-sub-html h4 {
+    text-align: left;
+    color: #474747;
+    letter-spacing: normal;
+    font-size: 20px;
+    margin-bottom: 10px;
+    letter-spacing: 2px !important;
+}
+
+.lg-sub-html h4:nth-child(2) {
+    font-size: 18px;
+}
+
+.lg-sub-html h4:nth-child(3) {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.lg-sub-html p {
+    text-align: left;
+    color: #474747;
+    letter-spacing: 0px !important;
+    margin-bottom: 0px;
+    margin: 0px;
+}
+
+.mainVideo {
+    width: 90% !important;
+    height: auto !important;
+}
+
+.demo-gallery .video .demo-gallery-poster img {
+    height: auto;
+    margin-left: 0px;
+    margin-top: 0px;
+    opacity: 1;
+    width: 200px;
+    left: 39%;
+}
+
+.lg-outer .lg-video-cont {
+    width: 800px;
+    max-width: 800px !important;
+    padding: 0px;
+    padding-top: 75px;
+    margin: 0px;
+    vertical-align: top;
+}
+
+
+@media only screen and (max-width: 1001px) {
+
+.demo-gallery > ul {
+    width: 100%;
+}
+
+}
