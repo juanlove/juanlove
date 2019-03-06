@@ -103,7 +103,8 @@
     margin-top: 0px;
     opacity: 1;
     width: 200px;
-    left: 39%;
+    left: 50%;
+    margin-left: -100px;
 }
 
 .lg-outer .lg-video-cont {
@@ -148,7 +149,7 @@
 }
 
     .demo-gallery .video .demo-gallery-poster img {
-        left: 18%;
+        left: 50%;
         top: 35%;
     }
 }
