@@ -8,13 +8,13 @@
 
 #lightgallery {
     background-color: rgba(0, 0, 0, 0.5);
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     height: auto;
 }
 
 .demo-gallery > ul {
-    width: 1000px;
+    width: 900px;
 }
 
 .demo-gallery > ul > li > a {
@@ -52,7 +52,9 @@
     top: 530px;
     left: 50%;
     margin-left: -400px;
-    padding: 0px
+    padding: 0px;
+    background-image: url("../assets/imgs/talbotFilmsCaption.jpg");
+    background-repeat: no-repeat;
 }
 
 .lg-sub-html h4 {
@@ -102,9 +104,9 @@
     margin-left: 0px;
     margin-top: 0px;
     opacity: 1;
-    width: 200px;
+    width: 150px;
     left: 50%;
-    margin-left: -100px;
+    margin-left: -75px;
 }
 
 .lg-outer .lg-video-cont {
