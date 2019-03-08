@@ -76,7 +76,7 @@ nav {
 }
 
 nav ul {
-    height: 125px;
+    height: 112px;
     margin: 0px auto;
     width: 100%;
     text-align: center;
@@ -108,7 +108,7 @@ nav ul li a:hover {
 }
 
 nav ul li img {
-    height: 104px;
+    height: 90px;
     width: auto;
     background: none;
 }
@@ -327,6 +327,7 @@ label {
     width: 100%;
     background-color: #000000;
     z-index: 13;
+    min-height: 700px;
 }
 
 .second .divider {
@@ -667,6 +668,15 @@ label {
     display: none;
 }
 
+@media only screen and (max-width: 1500px) {
+    .fifth h3{
+        font-size: 12px;
+        letter-spacing: 10px;
+    }
+}
+
+/*1100*/
+
 @media only screen and (max-width: 1100px) {
 
 
@@ -679,6 +689,11 @@ label {
         overflow: hidden;
     }
 
+
+    .fifth h3 {
+        font-size: 10px;
+        letter-spacing: 8px;
+    }
 
     .fixedWidth {
         width: 100% !important;
@@ -706,6 +721,18 @@ label {
         width: 27px;
         z-index: 120;
     }
+
+    .fourth .imageBackground {
+        background-image: url("../assets/imgs/newBio.jpg");
+        background-repeat: no-repeat;
+        height: 300px;
+        background-position: center;
+        margin: 0px;
+        position: relative;
+        background-attachment: inherit;
+        margin-bottom: 20px;
+    }
+
 
     /* Icon Bars */
     .icon-bars {
@@ -886,7 +913,17 @@ label {
     }
 }
 
-@media only screen and (max-width: 800px) {
+
+@media only screen and (max-width: 991px) {
+
+    .fourth .imageBackground {
+        background-attachment: fixed;
+    }
+}
+
+/*800*/
+
+@media only screen and (max-width: 767.98px) {
 
     nav {
         height: 70px !important;
@@ -918,7 +955,7 @@ label {
         background-repeat: no-repeat;
         height: 300px;
         background-position: center;
-        background-size: cover;
+        background-size: contain;
         margin: 0px;
         position: relative;
         background-attachment: inherit;
@@ -975,8 +1012,8 @@ label {
     }
 
     .fifth h3 {
-        font-size: 12px;
-        letter-spacing: 10px;
+        font-size: 10px;
+        letter-spacing: 8px;
     }
 
 }

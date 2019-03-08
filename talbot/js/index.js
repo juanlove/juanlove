@@ -2,7 +2,7 @@
 var windowHeight = $(window).height();
 $(document).ready(function () {
     $(window).scroll(function () {
-        if ($(this).scrollTop() > windowHeight * 3.3) {
+        if ($(this).scrollTop() > windowHeight * 3.6) {
             $(".videoThree").fadeIn(100);
         }
         else if ($(this).scrollTop() > windowHeight * 1.1) {
