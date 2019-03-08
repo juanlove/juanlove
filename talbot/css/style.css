@@ -672,6 +672,19 @@ label {
     display: none;
 }
 
+.videoMobile {
+    position: fixed;
+    min-height: 100vh;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: none;
+}
+
 @media only screen and (max-width: 1500px) {
     .fifth h3 {
         font-size: 12px;
@@ -973,8 +986,7 @@ label {
         width: 100% !important;
     }
 
-    .gradientTop,
-    .gradientBottom,
+
     .videoOne,
     .videoTwo,
     .videoThree {
@@ -1001,13 +1013,14 @@ label {
         height: 40vh !important;
     }
 
+    /*
+
     .first {
         background-image: url(../assets/imgs/firstMobile.jpg);
         background-size: cover;
     }
 
     .third {
-        /*        background-image: url(../assets/imgs/secondMobile.jpg);*/
         background-color: #000000 !important;
         background-size: cover;
     }
@@ -1017,10 +1030,24 @@ label {
         background-image: url(../assets/imgs/thirdMobile.jpg);
         background-size: cover;
     }
+*/
 
     .fifth h3 {
         font-size: 10px;
         letter-spacing: 8px;
+    }
+
+    .videoMobile {
+        position: fixed;
+        min-height: 100vh;
+        min-width: 100%;
+        width: auto;
+        height: auto;
+        z-index: 1;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        display: inherit;
     }
 
 }
