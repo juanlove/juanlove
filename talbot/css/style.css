@@ -467,9 +467,16 @@ label {
 }
 
 .fifth .contactEmail {
+    transition: all 0.5s ease;
     color: white !important;
     font-weight: normal !important;
     font-size: 16px;
+}
+
+.fifth .contactEmail:hover {
+    transition: all 0.5s ease;
+    color: grey !important;
+    text-decoration: none;
 }
 
 .fifth .contactPhone {
@@ -478,6 +485,13 @@ label {
     text-decoration: none !important;
     font-family: 'Arial', serif !important;
     font-size: 16px;
+    transition: all 0.5s ease;
+}
+
+.contactPhone:hover {
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: grey !important;
 }
 
 
