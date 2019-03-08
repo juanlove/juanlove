@@ -123,34 +123,34 @@
 
 @media only screen and (max-width: 1001px) {
 
-.demo-gallery > ul {
-    width: 100%;
-}
+    .demo-gallery > ul {
+        width: 100%;
+    }
 
 }
 
 
 @media only screen and (max-width: 801px) {
 
-.lg-sub-html {
-    display: block;
-    margin: 0px;
-    width: 350px;
-    position: absolute;
-    top: 290px;
-    left: 50%;
-    margin-left: -175px;
-    padding: 0px
-}
+    .lg-sub-html {
+        display: block;
+        margin: 0px;
+        width: 350px;
+        position: absolute;
+        top: 290px;
+        left: 50%;
+        margin-left: -175px;
+        padding: 0px
+    }
 
-.lg-outer .lg-video-cont {
-    width: 350px;
-    max-width: 800px !important;
-    padding: 0px;
-    padding-top: 85px;
-    margin: 0px;
-    vertical-align: top;
-}
+    .lg-outer .lg-video-cont {
+        width: 350px;
+        max-width: 800px !important;
+        padding: 0px;
+        padding-top: 85px;
+        margin: 0px;
+        vertical-align: top;
+    }
 
     .demo-gallery .video .demo-gallery-poster img {
         left: 50%;

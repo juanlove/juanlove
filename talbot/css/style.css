@@ -669,7 +669,7 @@ label {
 }
 
 @media only screen and (max-width: 1500px) {
-    .fifth h3{
+    .fifth h3 {
         font-size: 12px;
         letter-spacing: 10px;
     }
