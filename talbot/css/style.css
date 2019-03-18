@@ -1018,25 +1018,6 @@ label {
         height: 40vh !important;
     }
 
-    /*
-
-    .first {
-        background-image: url(../assets/imgs/firstMobile.jpg);
-        background-size: cover;
-    }
-
-    .third {
-        background-color: #000000 !important;
-        background-size: cover;
-    }
-
-
-    .fifth {
-        background-image: url(../assets/imgs/thirdMobile.jpg);
-        background-size: cover;
-    }
-*/
-
     .fifth h3 {
         font-size: 10px;
         letter-spacing: 8px;
