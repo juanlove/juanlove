@@ -1,648 +1,215 @@
+
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" >
 <head>
-    <meta charset="utf-8">
-    <title>juanlove design</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <title>Talbot Films</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="juanlove design web photoshop illustrator ">
-    <meta name="description" content="juanlove design website">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <!-- Google Analytics	-->
-    <script>
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-        ga('create', 'UA-72514525-2', 'auto');
-        ga('send', 'pageview');
-    </script>
-    <!-- Google Tag Manager -->
-    <script>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-P5KXR6');
-    </script>
-    <!-- End Google Tag Manager -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/et-line-font.css">
-    <link rel="stylesheet" href="css/nivo-lightbox.css">
-    <link rel="stylesheet" href="css/nivo_themes/default/default.css">
-    <link rel="stylesheet" href="css/twentytwenty.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway" rel="stylesheet">
-    <style>
-        .videoWrapper {
-            position: relative;
-            padding-bottom: 56.25%;
-            /* 16:9 */
-            padding-top: 25px;
-            height: 0;
-        }
-
-        .videoWrapper iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
-    </style>
-    <script>
-        /**
-         * Function that tracks a click on an outbound link in Analytics.
-         * This function takes a valid URL string as an argument, and uses that URL string
-         * as the event label. Setting the transport method to 'beacon' lets the hit be sent
-         * using 'navigator.sendBeacon' in browser that support it.
-         */
-        var trackOutboundLink = function(url) {
-            ga('send', 'event', 'outbound', 'click', url, {
-                'transport': 'beacon',
-                'hitCallback': function() {
-                    document.location = url;
-                }
-            });
-        }
-    </script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.11/css/lightgallery.min.css'>
+    <link rel='stylesheet' href='https://unpkg.com/aos@2.3.1/dist/aos.css'>
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel='stylesheet' href='css/videoStyles.css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 </head>
 
-<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P5KXR6" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    </noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <!-- navigation section -->
-    <section class="navbar navbar-fixed-top custom-navbar" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon icon-bar"></span> <span class="icon icon-bar"></span> <span class="icon icon-bar"></span> </button> <a href="https://www.juanlove.design" class="navbar-brand">juanlove</a> </div>
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home" rel="relativeanchor" class="smoothScroll">HOME</a></li>
-                    <li><a href="#work" rel="relativeanchor" class="smoothScroll">SKILLS</a></li>
-                    <li><a href="#about" rel="relativeanchor" class="smoothScroll">ABOUT</a></li>
-                    <li><a href="#portfolio" rel="relativeanchor" class="smoothScroll">PORTFOLIO</a></li>
-                    <li><a href="#resume" rel="relativeanchor" class="smoothScroll">RESUME</a></li>
-                    <li><a href="#contact" rel="relativeanchor" class="smoothScroll">CONTACT</a></li>
+<style>
+    .spacingFix {
+        letter-spacing: 0px;
+    }
+/*
+
+    div {
+        background-color: rgba(0,0,0,0) !important;
+    }
+*/
+
+</style>
+
+<body>
+
+    <div id="myNav" class="overlayNav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+            <div class="outer">
+                <div class="inner">
+                    <label>X</label>
+                </div>
+            </div>
+        </a>
+        <div class="overlayNav-content">
+            <a onclick="closeNav()" href="#story">About</a>
+            <a onclick="closeNav()" href="#work">Work</a>
+            <a onclick="closeNav()" href="#bio">Bio</a>
+            <a onclick="closeNav()" href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <nav>
+        <ul id="top-menu">
+        <li class="mainNavItems"><a href="#story">
+        about</a></li><!--
+        --><li class="mainNavItems"><a href="#work">
+        work</a></li><!--
+        --><a href=""><li class="mobileLogo"><img src="assets/imgs/navLogo.png"></li></a><!--
+        --><li class="mainNavItems"><a href="#bio">
+        bio</a></li><!--
+        --><li class="mainNavItems"><a href="#contact">
+        contact</a></li><!--
+        --><li class="menuIcon" onclick="openNav()"><span class="icon icon-bars"></span><span class="icon icon-bars overlay"></span></li>
+        </ul>
+    </nav>
+
+    <div class="mainContainer">
+        <div class="first">
+            <div class="divider"></div>
+            <div class="row">
+                <div class="col-sm-2 col-xs-12"></div>
+                <div class="col-sm-8 col-xs-12">
+                    <div class="row blackBox top">
+
+                        <div class="col-lg-4">
+                            <img src="assets/imgs/immerse.png" width="90%" height="auto" />
+                        </div>
+
+                        <div class="col-lg-4">
+                            <img src="assets/imgs/connect.png" width="90%" height="auto" />
+                        </div>
+
+                        <div class="col-lg-4">
+                            <img src="assets/imgs/entertain.png" width="90%" height="auto" />
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-sm-2 col-xs-12"></div>
+            </div>
+        </div>
+
+        <div class="gradientTop"></div>
+        <div id="story" class="second">
+            <div class="divider"></div>
+            <div class="row fixedWidth">
+                <div class="col-lg-1 col-xs-12"></div>
+                <div class="col-lg-4 col-xs-12">
+                    <div class="videoBox" data-aos="fade-up" data-aos-duration="3000">
+                        <video no-controls autoplay loop muted poster="" class="aboutVideo">
+                            <source type="video/mp4" src="assets/video/aboutVideo.mp4" />
+                        </video>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xs-12 aboutDescript">
+                    <img data-aos="fade-right" data-aos-duration="3000" src="assets/imgs/aboutHeader.png" />
+                    <p data-aos="fade-right" data-aos-duration="3000">Bob Talbot began sharing his passion for the sea at the age of fourteen. Inspired by his childhood hero Jacques Cousteau, he merged sight and sound with nothing but a slide projector and record player.</p>
+                    <p data-aos="fade-right" data-aos-duration="3000">Today Talbot Films continues to connect the public to the natural world through select, highly immersive special venue media and films.</p>
+                    <p data-aos="fade-right" data-aos-duration="3000">Each of our productions is a unique story-based creation, crafted through groundbreaking cinematography, CGI, sound design and state-of-the-art presentation technologies.</p>
+                    <p data-aos="fade-right" data-aos-duration="3000">Our clients include: BBC, IMAX, Simex Iwerks, California Academy of Sciences, Smithsonian Instituion, California Science Center, The National Aquarium, NOAA and National Marine Sanctuaries.</p>
+                </div>
+                <div class="col-lg-1 col-xs-12"></div>
+            </div>
+        </div>
+        <div class="gradientBottom"></div>
+
+        <div id="work" class="third">
+            <div class="divider"></div>
+            <div class="demo-gallery">
+                <ul id="lightgallery">
+                    <li class="video mainVideo" data-sub-html="." data-src="https://vimeo.com/320992340" data-poster="assets/imgs/animatedThumb/one.gif">
+                        <a href="" data-sub-html=".caption">
+                            <img class="img-responsive" src="assets/imgs/animatedThumb/two.gif"  >
+                            <div class="caption">
+                            </div>
+                            <div class="demo-gallery-poster">
+                                <img src="assets/imgs/play-button.png" >
+                            </div>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
-    </section>
-    <!-- home section -->
-    <section id="home">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <h3>WEB DEVELOPER / GRAPHIC DESIGNER</h3>
-                    <h1>juanlove</h1>
-                    <hr> <a href="#work" rel="relativeanchor" class="smoothScroll btn btn-danger">Skills</a> <a href="#contact" rel="relativeanchor" class="smoothScroll btn btn-default">Contact</a> </div>
-            </div>
-        </div>
-    </section>
-    <!-- work section -->
-    <section id="work">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <div class="section-title"> <strong>I</strong>
-                        <h1 class="heading bold">Skills</h1>
-                        <hr> </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.2s"> <i class="icon-browser medium-icon"></i>
-                    <h3>Web Design & Development</h3>
-                    <hr>
-                    <p>I design, update, and maintain functionality of websites by manually coding or a using content management systems. </p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.4s"> <i class="icon-mobile medium-icon"></i>
-                    <h3>Application Development</h3>
-                    <hr>
-                    <p>I develop, update &#38; maintain mobile applications through Adobe PhoneGap and Cordova.</p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s"> <i class="icon-laptop medium-icon"></i>
-                    <h3>Graphic Design</h3>
-                    <hr>
-                    <p>I design, illustrate &#38; edit. Designing websites is second nature to me.
-                        <br>
-                        <br> </p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.8s"> <i class="icon-presentation medium-icon"></i>
-                    <h3>SEO &#38; Analytics</h3>
-                    <hr>
-                    <p>I cut down jargan for everyone to understand.</p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s"> <i class="icon-printer medium-icon"></i>
-                    <h3>Printing</h3>
-                    <hr>
-                    <p>Ask me anything about printing. Whether it be CORRECTLY printing business cards, posters or brochures, you name it, I can do it. </p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1.2s"> <i class="icon-camera medium-icon"></i>
-                    <h3>Photography</h3>
-                    <hr>
-                    <p>Provide professtional photography &#38; video for graduations, weddings, ceremonies, etc. </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- about section -->
-    <section id="about">
-        <div class="container ">
-            <div class="row ">
-                <div class="col-md-12 col-sm-12 text-center ">
-                    <div class="section-title"> <strong>II</strong>
-                        <h1 class="heading bold">About Me</h1>
-                        <hr> </div>
-                </div>
-                <!--			<div class="col-md-6 col-sm-12">
-				<img src="images/about-img.jpg" class="img-responsive" alt="about img">
-			</div>--></div>
-            <div class="row flex">
-                <div class="col-md-4 col-sm-12" id="container1">
-                    <!--                                         The before image is first --><img class="img-responsive" src="images/coffee1.jpg" />
-                    <!--                                         The after image is last --><img class="img-responsive" src="images/coffee2.jpg" />
-                    <!--
-                    <div class="videoWrapper">
-                         Copy & Pasted from YouTube
-                        <iframe width="560" height="349" src="https://www.youtube.com/embed/o5Ur-0c2JaQ" frameborder="0" allowfullscreen></iframe>
+
+        <div class="gradientTop"></div>
+        <div id="bio" class="fourth">
+            <div class="divider"></div>
+            <div class="row fixedWidth noPads">
+                <div class="col-xs-12 col-lg-2"></div>
+                <div class="col-xs-12 col-lg-4 relativeBox">
+                    <div class="gradientBottom imageGradientOne">
                     </div>
---></div>
-                <div class="col-md-7 col-sm-12">
-                    <h3 class="bold"></h3>
-                    <h6 class="heading bold">Windows 98 Paint to Adobe Creative Cloud</h6>
-                    <!-- Nav tabs -->
-                    <ul class="nav nav-tabs" role="tablist">
-                        <li class="active"><a href="#design" aria-controls="graphics" role="tab" data-toggle="tab">DESIGN</a></li>
-                        <li><a href="#web" aria-controls="web" role="tab" data-toggle="tab">WEB</a></li>
-                        <li><a href="#app" aria-controls="app" role="tab" data-toggle="tab">APP</a></li>
-                    </ul>
-                    <!-- tab panes -->
-                    <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane active" id="design">
-                            <p>I took a digital imaging class in high school. It was probably the only good decision I made back then, to be honest. But let's not get into that. </p>
-                            <p>From there, I taught myself photography and image enhancing. I enjoyed what I was doing, and others also seemed to feel the same. Soon enough, I found myself being hired to take photos at special events and do Photoshop work for my clients.</p>
-                        </div>
-                        <div role="tabpanel" class="tab-pane" id="web">
-                            <p>Ahh, Myspace. Home of angst-y teens, edgy subcultures and my passion for web design. As I was playing around with Myspace back in the day, I began to realize playing around with letters and numbers could be more interesting than digital imaging. </p>
-                            <p>That passion is what led me to take community college courses on web design, which then brought me to Mt Sierra College where I really learned how to strut my stuff. So thank you, Myspace. </p>
-                        </div>
-                        <div role="tabpanel" class="tab-pane" id="app">
-                            <p>Mt Sierra College is also where I learned the know-hows of interactive design. I worked on an app for musicians as a passion project, and my professor was impressed with what I had in a short amount of time. He recommended me to design apps for the school, and that's exactly what I did. </p>
-                            <p>During the Spring of 2016, while still a student, I was hired to develop Mt Sierra College's. The App was ready for launch in the Google Play and Apple Market at the start of the Winter Quarter that year.</p>
-                        </div>
+                    <div class="imageBackground absoluteBox">
                     </div>
+                    <div class="gradientTop imageGradientTwo"></div>
                 </div>
+                <div class="col-xs-12 col-lg-4">
+
+                     <img class="mobileOnly" src="assets/imgs/bioHeader.png"  data-aos="fade-up" data-aos-duration="3000" />
+
+                     <p class=" " data-aos="fade-up" data-aos-duration="3000">Bob Talbot is an internationally renowned marine photographer, award winning filmmaker, and dedicated environmentalist. Whether he is consulting for Ang Lee on the motion picture LIFE of PI or battling whalers in court for Sea Shepherd Conservation Society, Talbot uses an eclectic range of skills to share the beauty of the sea and to protect it.
+
+                    <p class=" " data-aos="fade-up" data-aos-duration="3000">Bob was drawn to the sea as a child. He got his first glimpse beneath the surface when he was eight years old and began diving when he was thirteen. A year later he was given a Nikonos underwater camera as a Christmas gift and his creative fuse was lit.</p>
+
+                    <p class=" " data-aos="fade-up" data-aos-duration="3000">His iconic photographs were first published as fine art lithographs when he was in his early twenties and soon became the best selling line of marine artwork in the world. His images have also appeared in a wide range of publications from Time magazine to National Geographic.</p>
+
+                    <p class=" " data-aos="fade-up" data-aos-duration="3000">At the age of nineteen Bob began shooting motion picture film with a wind-up Bolex 16mm camera. Since then his motion picture work has been featured in television productions that have taken him from Antarctica with his childhood hero Jacques Cousteau, to the Arctic seal hunting grounds with Paul Watson —from the caverns of Grand Cayman with David Blaine to his beloved Monterey Bay for the BBC/PBS production of BIG BLUE LIVE.</p>
+
+                    <p class=" " data-aos="fade-up" data-aos-duration="3000">Talbot’s feature film credits include FREE WILLY, FLIPPER, INTO THE BLUE and DOLPHIN TALE 2. He directed and photographed the award-winning IMAX film OCEANMEN – EXTREME DIVE and acted as a director and cinematographer for sequences in the Academy Award-nominated IMAX film, DOLPHINS. He recently completed work on his production BEING DOLPHIN 4D and is currently working on his feature documentary film FIN.</p>
+
+                    <p class=" " data-aos="fade-up" data-aos-duration="3000">Talbot specializes in creating unique, highly immersive special venue media that speaks to his mission of connecting people to the sea. His clients include: IMAX, Simex Iwerks, California Academy of Sciences, Smithsonian Institution, California Science Center, The National Aquarium and National Marine Sanctuaries.</p>
+
+                    <p class=" " data-aos="fade-up" data-aos-duration="3000">For his advocacy work Talbot has been presented with The Environmental Hero Award by Vice President Al Gore, the prestigious SeaKeeper Award by HSH Prince Albert of Monaco, and the Ark Trust Genesis Award.</p>
+
+                    <p class=" " data-aos="fade-up" data-aos-duration="3000">He has served on the boards of the American Ocean Campaign, Earth Communications Office and on the Board of Governors for Oceana. He served nearly a decade on the board of the Sea Shepherd Conservation Society and was Chairman of the Board of Trustees of the National Marine Sanctuary Foundation from 2008 through 2016.</p>
+
+                    <p class=" " data-aos="fade-up" data-aos-duration="3000">When asked why he is so passionate about ocean conservation, Talbot’s answer is simple <span style="  font-style: italic;">“The sea has given us life. It’s time we returned the favor.”</span></p>
+
+                </div>
+                <div class="col-xs-12 col-lg-2"></div>
             </div>
+            <div class="divider"></div>
         </div>
-    </section>
-    <!-- portfolio section -->
-    <div id="portfolio">
-        <div class="container">
+        <div class="gradientBottom"></div>
+
+        <div id="contact" class="fifth">
+            <div class="divider"></div>
             <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <div class="section-title"> <strong>III</strong>
-                        <h1 class="heading bold">Portfolio</h1>
-                        <hr> </div>
-                    <!-- ISO section -->
-                    <div class="iso-section">
-                        <ul class="filter-wrapper clearfix">
-                            <li><a href="#" data-filter="*" class="selected opc-main-bg">All</a></li>
-                            <li><a href="#" class="opc-main-bg" data-filter=".web">Web</a></li>
-                            <li><a href="#" class="opc-main-bg" data-filter=".print">Print</a></li>
-                            <li><a href="#" class="opc-main-bg" data-filter=".logo">Logos</a></li>
-                        </ul>
-                        <div class="iso-box-section wow fadeIn" data-wow-delay="0.9s">
-                            <div class="iso-box-wrapper col4-iso-box">
-
-
-                                <div class="iso-box print col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/design-menuScreens.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-screenMenus.png" alt="portfolio img"></a>
-                                </div>
-
-                                <div class="iso-box print col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/design-jackiebeeshirts.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-jackiebeeshirts.png" alt="portfolio img"></a>
-                                </div>
-
-                                <div class="iso-box print logo col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/design-background.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-background.png" alt="portfolio img"></a>
-                                </div>
-
-                                <div class="iso-box print logo col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/design-dance.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-dance.png" alt="portfolio img"></a>
-                                </div>
-
-
-                                <div class="iso-box print col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/design-msctrifold.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-trifold.png" alt="portfolio img"></a>
-                                </div>
-                                <div class="iso-box print col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/wedding_portfolio.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/wedding_thumbnail.jpg" alt="portfolio img"></a>
-                                </div>
-                                <div class="iso-box print logo col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/design-council.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-msccouncil.png" alt="portfolio img"></a>
-                                </div>
-                                <div class="iso-box print col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/design-mscgradflyer.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-mscgradsflyer.png" alt="portfolio img"></a>
-                                </div>
-                                <div class="iso-box print col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/design-mscflyer.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-mscflyer.png" alt="portfolio img"></a>
-                                </div>
-                                <div class="iso-box print col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/design-mscwordart.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-mscwordart.png" alt="portfolio img"></a>
-                                </div>
-                                <div class="iso-box print logo col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/design-msccamp.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-msccamp.png" alt="portfolio img"></a>
-                                </div>
-                                <div class="iso-box print col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/design-welcome.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-mscwelcome.png" alt="portfolio img"></a>
-                                </div>
-                                <div class="iso-box web col-lg-3 col-md-3 col-sm-6">
-                                    <a href="https://www.mtsierra.edu" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-mtsierrasite.png" alt="portfolio img"></a>
-                                    <a href="https://www.mtsierra.edu">
-                                        <h4>mtsierra.edu</h4>
-                                    </a>
-                                </div>
-                                <div class="iso-box web col-lg-3 col-md-3 col-sm-6">
-                                    <a href="http://fundwildnature.org/" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-fundwildnaturesite.png" alt="portfolio img"></a>
-                                    <a href="http://fundwildnature.org/">
-                                        <h4>fundwildnature.org</h4>
-                                    </a>
-                                </div>
-                                <div class="iso-box web col-lg-3 col-md-3 col-sm-6">
-                                    <a href="http://www.galapagosconservationaction.org/" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-gcasite.png" alt="portfolio img"></a>
-                                    <a href="http://www.galapagosconservationaction.org/">
-                                        <h4>galapagosconservationaction.org</h4>
-                                    </a>
-                                </div>
-                                <div class="iso-box web col-lg-3 col-md-3 col-sm-6">
-                                    <a href="https://www.pvpzonelv.com" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-pvpzonesite.png" alt="portfolio img"></a>
-                                    <a href="https://www.pvpzonelv.com">
-                                        <h4>pvpzonelv.com</h4>
-                                    </a>
-                                </div>
-                                <div class="iso-box print col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/design-pvpzonechairs.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-pvpzonechairs.png" alt="portfolio img"></a>
-                                </div>
-                                <div class="iso-box print col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/design-pvpzoneshirts.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-pvpzoneshirts.png" alt="portfolio img"></a>
-                                </div>
-                                <div class="iso-box print logo col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/design-twitchvegaslogo.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-twitchlogo.png" alt="portfolio img"></a>
-                                </div>
-                                <div class="iso-box print col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/design-mscbears.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-mscbears.png" alt="portfolio img"></a>
-                                </div>
-                                <div class="iso-box print logo col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/styleSheets-03.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnails-03.jpg" alt="portfolio img"></a>
-                                </div>
-                                <div class="iso-box print col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/design-jbmenu.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-jbmenu.png" alt="portfolio img"></a>
-                                </div>
-                                <div class="iso-box web col-lg-3 col-md-3 col-sm-6">
-                                    <a href="https://jackiebeelv.com/" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-jackiebeesite.png" alt="portfolio img"></a>
-                                    <a href="https://jackiebeelv.com/">
-                                        <h4>jackiebeelv.com</h4>
-                                    </a>
-                                </div>
-                                <div class="iso-box web col-lg-3 col-md-3 col-sm-6">
-                                    <a href="https://juanlove.github.io/string/" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-stringsite.png" alt="portfolio img"></a>
-                                    <a href="https://juanlove.github.io/string/">
-                                        <h4>String</h4>
-                                    </a>
-                                </div>
-                                <div class="iso-box print logo col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/design-stringlogo.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-stringlogo.png" alt="portfolio img"></a>
-                                </div>
-
-
-                                <div class="iso-box print col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/design-drawwithme.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-drawwithme.png" alt="portfolio img"></a>
-                                </div>
-
-                                <div class="iso-box print col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/design-speaker.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-speaker.png" alt="portfolio img"></a>
-                                </div>
-
-
-                                <div class="iso-box print logo col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/design-daniellogo.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-daniellogo.png" alt="portfolio img"></a>
-                                </div>
-
-                                <div class="iso-box print logo col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/design-theBakery.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-theBakery.png" alt="portfolio img"></a>
-                                </div>
-
-
-                                <div class="iso-box print logo col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/design-bah.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-bah.png" alt="portfolio img"></a>
-                                </div>
-                                <div class="iso-box print col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/design-ggjposter.png" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnail-ggjposter.png" alt="portfolio img"></a>
-                                </div>
-                                <div class="iso-box print logo col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/styleSheets-04.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnails-04.jpg" alt="portfolio img"></a>
-                                </div>
-                                <div class="iso-box print logo col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/styleSheets-01.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnails-01.jpg" alt="portfolio img"></a>
-                                </div>
-                                <div class="iso-box print logo col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/styleSheets-02.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnails-02.jpg" alt="portfolio img"></a>
-                                </div>
-                                <div class="iso-box print col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/styleSheets-05.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnails-05.jpg" alt="portfolio img"></a>
-                                </div>
-                                <div class="iso-box print col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/styleSheets-06.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnails-06.jpg" alt="portfolio img"></a>
-                                </div>
-                                <div class="iso-box print col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/styleSheets-07.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnails-07.jpg" alt="portfolio img"></a>
-                                </div>
-                                <div class="iso-box print col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/styleSheets-08.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnails-08.jpg" alt="portfolio img"></a>
-                                </div>
-                                <div class="iso-box web col-lg-3 col-md-3 col-xs-4">
-                                    <a href="images/port/styleSheets-15.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnails-15.jpg" alt="portfolio img"></a>
-                                </div>
-                                <div class="iso-box web col-lg-3 col-md-3 col-sm-6">
-                                    <a href="https://www.monroviamusicfest.com" data-lightbox-gallery="portfolio-gallery"><img src="images/thumb/thumbnails-22.jpg" alt="portfolio img"></a>
-                                    <a href="https://www.monroviamusicfest.com">
-                                        <h4>monroviamusicfest.com</h4>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4 contactBox">
+                    <h3><a class="contactEmail" href="mailto: sea@talbotfilms.com">SEA@TALBOTFILMS.CO<span class="spacingFix">M</span></a></h3>
+                    <h3><a class="contactPhone" href="tel:+1-831-648-9578">831 648 9578</a></h3>
                 </div>
+                <div class="col-lg-4"></div>
             </div>
         </div>
+
+        <video no-controls autoplay loop muted poster="" class="videoOne">
+    <source type="video/mp4" src="assets/video/home.mp4" />
+  </video>
+
+        <video no-controls autoplay loop muted poster="" class="videoTwo">
+    <source type="video/mp4" src="assets/video/blurry.mp4" />
+  </video>
+
+        <video no-controls autoplay loop muted poster="" class="videoThree">
+    <source type="video/mp4" src="assets/video/story.mp4" />
+  </video>
+
+        <video no-controls autoplay loop muted poster="" class="videoMobile">
+    <source type="video/mp4" src="assets/video/blurry.mp4" />
+  </video>
+
     </div>
-    <section id="resume">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12 text-center">
-                    <div class="section-title"> <strong>IV</strong>
-                        <h1 class="heading bold">Resume</h1>
-                        <hr>
-                        <h6><a href="assests/resume2018.pdf" target="_blank">DOWNLOAD</a></h6>
-                    </div>
-                </div>
-                <div class="col-md-12 col-sm-12">
-                    <h3>Education</h3>
-                    <ul>
-                        <li><b>Citrus College</b> <small>2010 - 2012</small></li>
-                        <li><b>Mt Sierra College</b> <small>2014 - 2017</small>
-                            <ul>
-                                <li>Bachelor's Degree in Media Arts &#38; Design with a concentration in Graphic Design</li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <h3>Work Experience</h3>
-                    <ul>
-                        <li><b>Graphic Designer &#38; Web Developer</b>, Pvpzone Las Vegas <small>2017 Winter - Present</small>
-                            <ul>
-                                <li>Currently hire to developed, designed, and administer their website for Pvpzone and neighboring restaurant JackieBee.</li>
-                                <li>My secondary responsiblilites are to create promotional materials and advertisements in digital &#38; physical formats.</li>
-                            </ul>
-                        </li>
-                        <li><b>App Developer, Web Admin, Graphic Designer, &#38; Project Coordinator</b>, Mt Sierra College<small>2016 Spring - Fall 2018</small>
-                            <ul>
-                                <li>Main duties consisted of developing and designing the schools mobile application, posters, ads, brochures, videos, etc. I was the Marketing Department.</li>
-                                <li>Secondary tasks were to work on the Mt Sierra's website by manually coding or using content management systems such as Wordpress and Libguides.</li>
-                            </ul>
-                        </li>
-                        <li><b>Web Designer &#38; Developer Freelance</b> for Fund for Wild Nature <small>2017 Winter - 2018 Summer</small>
-                            <ul>
-                                <li>Hired by Fund for Wild Nature to develop and design their website.</li>
-                            </ul>
-                        </li>
-                        <li><b>Web Designer &#38; Developer Freelance</b> for Galapagos Preservation Society <small>2016 Winter - 2017 Winter</small>
-                            <ul>
-                                <li>Hired by Galapagos Preservation Society to revamp and rebrand their website.</li>
-                            </ul>
-                        </li>
-                        <li><b>Web Designer Freelance</b> for Vibes N Ventures <small>2016 Summer - Spring 2017</small>
-                            <ul>
-                                <li>Hired by Vibes N Ventures to create, design and publish their website.</li>
-                            </ul>
-                        </li>
-                        <li><b>Web Designer Freelance</b> for Monrovia Music Fest <small>2017 Spring - 2017 Spring</small>
-                            <ul>
-                                <li>Tasked to remodel the website for the Monrovia Music Festival event</li>
-                            </ul>
-                        </li>
-                        <li><b>Graphic Designer</b>, Mt Sierra College Learning Resource Center <small>2014 Fall - 2016 Fall</small>
-                            <ul>
-                                <li>Created and Design advertisements, flyers, ID cards and infographics.</li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <hr class="hrBlue">
-                    <h3>Software Knowledge</h3>
-                    <div class="tg-wrap hide-mobile">
-                        <table class="tg">
-                            <tr>
-                                <th class="tg-tiqg" rowspan="5"></th>
-                                <th class="tg-3we0" rowspan="5"></th>
-                                <th class="tg-ex43" rowspan="5"></th>
-                                <th class="tg-yw4l"></th>
-                                <th class="tg-1lz2" rowspan="5"></th>
-                                <th class="tg-3we0" rowspan="5"></th>
-                                <th class="tg-yw4l"></th>
-                                <th class="tg-yw4l"></th>
-                                <th class="tg-1lz2" rowspan="5"></th>
-                                <th class="tg-yw4l"></th>
-                            </tr>
-                            <tr>
-                                <td class="tg-m8at" rowspan="4"></td>
-                                <td class="tg-ex43" rowspan="4"></td>
-                                <td class="tg-2pns" rowspan="4"></td>
-                                <td class="tg-3we0" rowspan="4"></td>
-                            </tr>
-                            <tr> </tr>
-                            <tr> </tr>
-                            <tr> </tr>
-                            <tr>
-                                <td class="tg-yw4l">Html
-                                    <br>&amp; Css</td>
-                                <td class="tg-yw4l">Javascript</td>
-                                <td class="tg-yw4l">Git</td>
-                                <td class="tg-yw4l">MySQL</td>
-                                <td class="tg-yw4l">PHP</td>
-                                <td class="tg-yw4l">Photoshop</td>
-                                <td class="tg-yw4l">Premiere</td>
-                                <td class="tg-yw4l">After Effects</td>
-                                <td class="tg-yw4l">Illustrator</td>
-                                <td class="tg-yw4l">Indesign</td>
-                            </tr>
-                        </table>
-                    </div>
-                    <table class="tg display-mobile">
-                        <tr>
-                            <th class="tg-031e">Html &amp;
-                                <br>Css</th>
-                            <th class="tg-ckxx" colspan="5"></th>
-                        </tr>
-                        <tr>
-                            <td class="tg-031e">Javascript</td>
-                            <td class="tg-cxkv" colspan="5"></td>
-                        </tr>
-                        <tr>
-                            <td class="tg-031e">Git</td>
-                            <td class="tg-ilfa" colspan="5"></td>
-                        </tr>
-                        <tr>
-                            <td class="tg-031e">MySQL</td>
-                            <td class="tg-ym59" colspan="4"></td>
-                            <td class="tg-031e"></td>
-                        </tr>
-                        <tr>
-                            <td class="tg-031e">PHP</td>
-                            <td class="tg-6pxt" colspan="5"></td>
-                        </tr>
-                        <tr>
-                            <td class="tg-031e">Photoshop</td>
-                            <td class="tg-cxkv" colspan="5"></td>
-                        </tr>
-                        <tr>
-                            <td class="tg-yw4l">Premiere</td>
-                            <td class="tg-ex43" colspan="4"></td>
-                            <td class="tg-yw4l"></td>
-                        </tr>
-                        <tr>
-                            <td class="tg-yw4l">After Effects</td>
-                            <td class="tg-2pns" colspan="4"></td>
-                            <td class="tg-yw4l"></td>
-                        </tr>
-                        <tr>
-                            <td class="tg-yw4l">Illustrator</td>
-                            <td class="tg-1lz2" colspan="5"></td>
-                        </tr>
-                        <tr>
-                            <td class="tg-yw4l">InDesign</td>
-                            <td class="tg-3we0" colspan="4"></td>
-                            <td class="tg-yw4l"></td>
-                        </tr>
-                        <tr>
-                            <td class="tg-yw4l"></td>
-                            <td class="tg-yw4l"></td>
-                            <td class="tg-yw4l"></td>
-                            <td class="tg-yw4l"></td>
-                            <td class="tg-yw4l"></td>
-                            <td class="tg-yw4l"></td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- contact section -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12 text-center">
-                    <div class="section-title"> <strong>V</strong>
-                        <h1 class="heading bold">Contact Me</h1>
-                        <hr> </div>
-                </div>
-                <div class="col-md-6 col-sm-12 contact-info">
-                    <h2 class="heading bold">CONTACT INFO</h2>
-                    <p>I can be reached through email, phone or social media. </p>
-                    <div class="col-md-6 col-sm-4">
-                        <h3><i class="icon-envelope medium-icon wow bounceIn" data-wow-delay="0.6s"></i> EMAIL</h3>
-                        <p>hello@juanlove.design</p>
-                    </div>
-                    <div class="col-md-6 col-sm-4">
-                        <h3><i class="icon-phone medium-icon wow bounceIn" data-wow-delay="0.6s"></i> PHONES</h3>
-                        <p style="text-decoration: none;">626.531.1365</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <!--                    <center><img class="profilePicture" src="images/juanlove.png" /></center>-->
-                    <form action="https://formspree.io/mkooazwm" method="POST">
-                        <input type="text" name="_gotcha" style="display: none">
-                        <div class="form-group">
-                            <input class="form-control" type="text" name="Name" placeholder="Name" required> </div>
-                        <div class="form-group">
-                            <input class="form-control" type="email" name="Email" placeholder="Your Email" required> </div>
-                        <div class="form-group">
-                            <input class="form-control" type="text" name="Subject" placeholder="Subject" required> </div>
-                        <div class="form-group">
-                            <textarea class="form-control" name="message" placeholder="Your message" rows="3"></textarea>
-                        </div>
-                        <button class="btn btn-primary pull-right" style="width: 25%;" type="submit">SEND</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- footer section -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <p>Made with &hearts; by juanlove</p>
-                    <hr>
-                    <ul class="social-icon">
-                        <li>
-                            <a href="https://www.facebook.com/juan.urena" onclick="trackOutboundLink('https://www.facebook.com/juan.urena'); return false;" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/JuanLove_" onclick="trackOutboundLink('https://twitter.com/JuanLove_'); return false;" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/juanlove.design" onclick="trackOutboundLink('https://www.instagram.com/juanlove.design'); return false;" class="fa fa-instagram wow fadeIn" data-wow-delay="0.9s"></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/juan-urena-4b5410113" onclick="trackOutboundLink('https://www.linkedin.com/in/juan-urena-4b5410113'); return false;" class="fa fa-linkedin wow fadeIn" data-wow-delay="0.9s"></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script type="text/javascript" sc="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <!-- If no online access, fallback to our hardcoded version of jQuery -->
-    <script>
-        window.jQuery || document.write('<script src="js/jquery.js"><\/script>')
-    </script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/isotope.js"></script>
-    <script src="js/imagesloaded.min.js"></script>
-    <script src="js/nivo-lightbox.min.js"></script>
-    <script src="js/jquery.backstretch.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/jquery.event.move.js"></script>
-    <script src="js/jquery.twentytwenty.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script src="js/custom.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('a[rel="relativeanchor"]').click(function() {
-                $('html, body').animate({
-                    scrollTop: $($.attr(this, 'href')).offset().top
-                }, 500);
-                return false;
-            });
-        });
-    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.11/js/lightgallery-all.min.js'></script>
+    <script src='https://f.vimeocdn.com/js/froogaloop2.min.js'></script>
+    <script src='https://unpkg.com/aos@2.3.1/dist/aos.js'></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
