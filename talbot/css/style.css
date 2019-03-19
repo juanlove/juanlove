@@ -387,6 +387,12 @@ label {
 }
 
 
+.third .mobileOnly {
+    display: none;
+    width: 90%;
+}
+
+
 /* Bio Section */
 
 .fourth {
@@ -710,6 +716,11 @@ label {
     .fifth {
         width: 100%;
         overflow: hidden;
+    }
+
+
+    .third .mobileOnly {
+        display: inline;
     }
 
     .fourth .mobileOnly {
