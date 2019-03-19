@@ -115,9 +115,9 @@
     margin-left: 0px;
     margin-top: 0px;
     opacity: 1;
-    width: 150px;
+    width: 148px;
     left: 50%;
-    margin-left: -75px;
+    margin-left: -74px;
 }
 
 
@@ -126,7 +126,14 @@
     .demo-gallery > ul {
         width: 90%;
     }
+
+    .fourth .imageGradientOne {
+        height: 100px;
+    }
+
 }
+
+
 
 
 @media only screen and (max-width: 801px) {
@@ -153,7 +160,9 @@
 
     .demo-gallery .video .demo-gallery-poster img {
         left: 50%;
-        top: 35%;
+        top: 40%;
+        width: 130px;
+        margin-left: -65px;
     }
 
     #lightgallery {
