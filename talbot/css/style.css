@@ -33,6 +33,10 @@ p {
     margin: 0px;
 }
 
+.spacingFix {
+    letter-spacing: 0px;
+}
+
 /* Scroll Bar
 ========================================================================== */
 
@@ -695,14 +699,15 @@ label {
     display: none;
 }
 
+/* Media Queries
+========================================================================== */
+
 @media only screen and (max-width: 1500px) {
     .fifth h3 {
         font-size: 12px;
         letter-spacing: 10px;
     }
 }
-
-/*1100*/
 
 @media only screen and (max-width: 1100px) {
 
@@ -718,8 +723,8 @@ label {
 
 
     .third .mobileOnly {
-    display: block;
-    margin-left: 5%;
+        display: block;
+        margin-left: 5%;
     }
 
     .fourth .mobileOnly {
@@ -961,8 +966,6 @@ label {
     }
 }
 
-/*800*/
-
 @media only screen and (max-width: 767.98px) {
 
     nav {
@@ -1005,7 +1008,6 @@ label {
     .aboutScript img {
         width: 100% !important;
     }
-
 
     .videoOne,
     .videoTwo,
@@ -1050,5 +1052,4 @@ label {
         transform: translate(-50%, 0);
         display: inherit;
     }
-
 }
