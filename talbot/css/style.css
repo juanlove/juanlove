@@ -388,7 +388,6 @@ label {
 
 .third .mobileOnly {
     display: none;
-    width: 90%;
 }
 
 
@@ -719,11 +718,17 @@ label {
 
 
     .third .mobileOnly {
-        display: inline;
+    display: block;
+    margin-left: 5%;
     }
 
     .fourth .mobileOnly {
         display: block;
+    }
+
+
+    .fourth .imageGradientOne {
+        background-image: none;
     }
 
     .fifth h3 {
