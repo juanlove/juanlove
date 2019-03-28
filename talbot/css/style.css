@@ -654,7 +654,7 @@ label {
 
 .videoOne {
     position: fixed;
-    min-height: 100vh;
+    max-height: 100vh;
     min-width: 100%;
     width: auto;
     height: auto;
