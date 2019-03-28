@@ -659,9 +659,10 @@ label {
     width: auto;
     height: auto;
     z-index: 1;
-    top: 0;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, 0);
+    margin-left: -50%;
+    margin-top: -25%;
 }
 
 .videoTwo {
@@ -673,7 +674,7 @@ label {
     z-index: 2;
     top: 0;
     left: 50%;
-    transform: translate(-50%, 0);
+    margin-left: -50%;
     display: none;
 }
 
@@ -686,7 +687,7 @@ label {
     z-index: 3;
     top: 0;
     left: 50%;
-    transform: translate(-50%, 0);
+    margin-left: -50%;
     display: none;
 }
 
