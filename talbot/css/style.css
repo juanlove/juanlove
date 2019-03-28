@@ -654,7 +654,7 @@ label {
 
 .videoOne {
     position: fixed;
-    max-height: 100vh;
+    min-height: 100vh;
     min-width: 100%;
     width: auto;
     height: auto;
@@ -666,7 +666,7 @@ label {
 
 .videoTwo {
     position: fixed;
-    max-height: 100vh;
+    min-height: 100vh;
     min-width: 100%;
     width: auto;
     height: auto;
@@ -679,7 +679,7 @@ label {
 
 .videoThree {
     position: fixed;
-    max-height: 100vh;
+    min-height: 100vh;
     min-width: 100%;
     width: auto;
     height: auto;
