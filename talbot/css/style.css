@@ -659,10 +659,10 @@ label {
     width: auto;
     height: auto;
     z-index: 1;
-    top: 50%;
+    top: 50vh;
     left: 50%;
     margin-left: -50%;
-    margin-top: -25%;
+    margin-top: -50vh;
 }
 
 .videoTwo {
