@@ -48,7 +48,7 @@ p {
 .instalink {
     height: 100%;
     display: block;
-    background-image: url(../assets/imgs/instaback.png);
+    background-image: url(http://www.talbotfilms.com/assets/imgs/instaback.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -57,7 +57,7 @@ p {
 
 .instalink:hover {
     transition: all 0.5s ease;
-    background-image: url(../assets/imgs/instaback2.png);
+    background-image: url(http://www.talbotfilms.com/assets/imgs/instaback2.png);
 }
 
 .instalink img {
@@ -323,7 +323,7 @@ label {
 
 .gradientTop {
     position: relative;
-    background-image: url("../assets/imgs/goingUp.png");
+    background-image: url("http://www.talbotfilms.com/assets/imgs/goingUp.png");
     background-size: 100% 100%;
     background-position: center;
     z-index: 20;
@@ -333,7 +333,7 @@ label {
 
 .gradientBottom {
     position: relative;
-    background-image: url("../assets/imgs/goingDown.png");
+    background-image: url("http://www.talbotfilms.com/assets/imgs/goingDown.png");
     background-size: 100% 100%;
     background-position: center;
     z-index: 20;
@@ -494,7 +494,7 @@ label {
 }
 
 .fourth .imageBackground {
-    background-image: url("../assets/imgs/newBio.jpg");
+    background-image: url("http://www.talbotfilms.com/assets/imgs/newBio.jpg");
     background-repeat: no-repeat;
     background-size: 30% auto;
     background-attachment: fixed;
@@ -815,7 +815,7 @@ label {
     }
 
     .fourth .imageBackground {
-        background-image: url("../assets/imgs/newBio.jpg");
+        background-image: url("http://www.talbotfilms.com/assets/imgs/newBio.jpg");
         background-repeat: no-repeat;
 
 /*        height: 300px;*/
@@ -1011,7 +1011,7 @@ label {
 @media only screen and (max-width: 991px) {
 
     .fourth .imageBackground {
-        background-image: url("../assets/imgs/newBio.jpg");
+        background-image: url("http://www.talbotfilms.com/assets/imgs/newBio.jpg");
         background-repeat: no-repeat;
         height: 300px;
         background-position: center;
