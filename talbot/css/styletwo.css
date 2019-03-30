@@ -41,6 +41,21 @@ p {
     padding-right: 3.5%;
 }
 
+.instalink img {
+    transition: all 0.5s ease;
+    background-color: rgba(0,0,0,0);
+    height: 100%;
+    width: 15%;
+    height: auto;
+
+}
+
+.instalink img:hover {
+    transition: all 0.75s ease;
+    background-color: rgba(200,200,200,0.2);
+    border-radius: 10px;
+}
+
 /* Scroll Bar
 ========================================================================== */
 
