@@ -41,20 +41,39 @@ p {
     padding-right: 3.5%;
 }
 
-.instalink img {
-    transition: all 0.5s ease;
-    background-color: rgba(0,0,0,0);
-    height: 100%;
-    width: 15%;
-    height: auto;
+.instagram {
+    text-align: center;
+}
 
+.instalink {
+    height: 100%;
+    display: block;
+    background-image: url(../assets/imgs/instaback.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: all 0.5s ease;
+}
+
+.instalink:hover {
+    transition: all 0.5s ease;
+    background-image: url(../assets/imgs/instaback.png);
+}
+
+.instalink img {
+    height: auto;
+    width: 15%;
+    transition: all 0.5s ease;
 }
 
 .instalink img:hover {
-    transition: all 0.75s ease;
-    background-color: rgba(200,200,200,0.2);
-    border-radius: 10px;
+    height: auto;
+    width: 15%;
+    transition: all 0.5s ease;
+    background-color: rgba(0,0,0,0.25);
 }
+
+
 
 /* Scroll Bar
 ========================================================================== */
