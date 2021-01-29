@@ -1,3 +1,14 @@
+// Video-Gallery
+$(document).ready(function () {
+    $('.video-gallery').magnificPopup({
+        delegate: 'a',
+        type: 'iframe',
+        gallery: {
+            enabled: true
+        }
+    });
+});
+
 (function ($) {
 
     "use strict";
@@ -2056,13 +2067,3 @@ function initMap() {
 
 }
 
-// Video-Gallery
-$(document).ready(function () {
-    $('.video-gallery').magnificPopup({
-        delegate: 'a',
-        type: 'iframe',
-        gallery: {
-            enabled: true
-        }
-    });
-});
