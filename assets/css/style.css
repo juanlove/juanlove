@@ -5001,13 +5001,13 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   position: absolute;
   width: 100%;
   font-family: "Montserrat", sans-serif;
-  font-size: 10vw;
+  font-size: 8vw;
   font-weight: 600;
   text-align: center;
   opacity: 0;
-  -webkit-transform: translateY(-100%);
-  -ms-transform: translateY(-100%);
-  transform: translateY(-100%);
+  -webkit-transform: translateY(-140%);
+  -ms-transform: translateY(-140%);
+  transform: translateY(-140%);
   z-index: 1;
   text-transform: uppercase;
   word-break: break-all;
