@@ -1,2 +1,0 @@
-# juanlove
-My Personal Site
