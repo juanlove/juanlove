@@ -476,7 +476,7 @@ Function Scroll Effects
 			setTimeout(() => {
 				$(this).removeClass("no-events");
 			}, 1000); 
-			var heroheight = $("#hero").height();			
+			var heroheight = $("#hero").height() * 1.50;			
 			if ($("body").hasClass("smooth-scroll")) {
 				gsap.to(scrollbar, {duration: 1.5, scrollTop:heroheight, ease:Power4.easeInOut});
 				gsap.to('#ball', {duration: 0.3, borderWidth: '4px', scale:0.5, borderColor:'#999999', delay:0.15});
@@ -862,9 +862,9 @@ Function Scroll Effects
 				gsap.to('#ball', {
 					duration: 0.3,
 					borderWidth: '2px',
-					scale: 0.4,
-					borderColor: "#04d9ff",
-					backgroundColor: "#04d9ff"
+					scale: 1.4,
+					borderColor: "#fa821d",
+					backgroundColor: "#fa821d"
 				});
 				gsap.to('#ball-loader', {
 					duration: 0.2,
@@ -873,12 +873,12 @@ Function Scroll Effects
 					left: 2
 				});                
 			
-				$("#ball").append('<img class="eyes-icon" src="images/hash.png" style="transform:scale(0.75);">');                
+				$("#ball").append('<img class="eyes-icon" src="images/eyes.png" style="transform:scale(0.75);">');                
 			
 				let imageIndex = 0;
 				const images = [
-					'<img class="eyes-icon" src="images/hash1.png" style="transform:scale(0.75);">',
-					'<img class="eyes-icon" src="images/hash.png" style="transform:scale(0.75);">' 
+					'<img class="eyes-icon" src="images/eyes1.png" style="transform:scale(0.75);">',
+					'<img class="eyes-icon" src="images/eyes.png" style="transform:scale(0.75);">' 
 				];
 			
 				function switchImage() {

@@ -325,7 +325,7 @@
 	}
 	
 	.hero-title-placeholder.completed span:last-child::after {
-		width:10%;
+		width:0%;
 	}
 	
 	.new-hero-title span.text-rotator > span {
