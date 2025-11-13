@@ -873,12 +873,12 @@ Function Scroll Effects
 					left: 2
 				});                
 			
-				$("#ball").append('<img class="eyes-icon" src="images/eyes.png" style="transform:scale(0.75);">');                
+				$("#ball").append('<img class="eyes-icon" src="images/eyes.png" style="transform:scale(1.5);">');                
 			
 				let imageIndex = 0;
 				const images = [
-					'<img class="eyes-icon" src="images/eyes1.png" style="transform:scale(0.75);">',
-					'<img class="eyes-icon" src="images/eyes.png" style="transform:scale(0.75);">' 
+					'<img class="eyes-icon" src="images/eyes1.png" style="transform:scale(1.5);">',
+					'<img class="eyes-icon" src="images/eyes.png" style="transform:scale(1.5);">' 
 				];
 			
 				function switchImage() {
